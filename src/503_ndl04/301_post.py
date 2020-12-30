@@ -1,13 +1,19 @@
 import sys
 sys.path.append('../500_common')
 import lib
+import lib_ss
 
-images = lib.get_images("../500_common/data/result.html")
+if False:
+    images = lib.get_images("data/result.html")
+else:
+    soup = lib_ss.main("/Users/nakamurasatoru/git/d_genji/genji_curation/src/500_common/Chrome1post", "Profile 1", 60)
+    images = lib.get_images_by_soup(soup)
 
 collectionUrl = "https://utda.github.io/genji/iiif/ndl-2610583/top.json"
 areas = ["3600,370,3000,4400", "560,370,3000,4400"]
-countMax = 5
+countMax = 20
 
-token = lib.get_token("../token.yml")
+# token = lib.get_token("../token.yml")
+token = "eyJhbGciOiJSUzI1NiIsImtpZCI6IjA4MGU0NWJlNGIzMTE4MzA5M2RhNzUyYmIyZGU5Y2RjYTNlNmU4ZTciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoidS5uYWthbXVyYS5zYXRvcnUgdSIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vLXBZeVhMVEpMeFE0L0FBQUFBQUFBQUFJL0FBQUFBQUFBQUFBL0FDSGkzcmVWR21aMzNBQTRXSGloWGQ0aGZfSUcyNHpIX1EvcGhvdG8uanBnIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2NvZGgtODEwNDEiLCJhdWQiOiJjb2RoLTgxMDQxIiwiYXV0aF90aW1lIjoxNTk0MjQ4OTI2LCJ1c2VyX2lkIjoiUGwySXNUNWlVV1Z5SVZQUFFkNVNZbHZkdmV6MiIsInN1YiI6IlBsMklzVDVpVVdWeUlWUFBRZDVTWWx2ZHZlejIiLCJpYXQiOjE2MDkzNjk3MjcsImV4cCI6MTYwOTM3MzMyNywiZW1haWwiOiJ1Lm5ha2FtdXJhLnNhdG9ydUBnLmVjYy51LXRva3lvLmFjLmpwIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMDExNzI0MzcwNTUzMjI0MjcwMDYiXSwiZW1haWwiOlsidS5uYWthbXVyYS5zYXRvcnVAZy5lY2MudS10b2t5by5hYy5qcCJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.AN_ZkgRc-VIfK1X7UKr0LjlxU3gRTqMVYXRKyxYbOPeOUPGFpcOMQ7oPV9CssAq4vstjQufQFJTUoyYYGFf92vIrXewTX9OVYVdqF0j6kOr4i75LdBvL8D_P_UEZMBxmkdDvPj0MWLw1AUMpB9DyWHnBgW9GAJO77xtKPYR1rbRkXneBwijoRtDM4kAqnuYQLQLWKHFEE7pPgXp9kpna4IV76uWEKQ0Vu6GlTyOeU0cD_vEFlJ1cD26faRoK8GCdowxALFVHNMzPNhEnRsG_SfP-zjSsgKJBMF52FKknySiync0g36LSQPUS0fsxFj5h6NorbOWLDUVmIsWvZAYTNQ"
 
 lib.post(collectionUrl, areas, countMax, token, images, "Collection")

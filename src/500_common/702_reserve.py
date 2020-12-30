@@ -5,4 +5,4 @@ import lib_reserve
 a = "Chrome3res"
 b = "Profile 3"
 
-lib_reserve.main(a, b, False, waitTime=10)
+lib_reserve.main(a, b, None, waitTime=10)

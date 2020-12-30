@@ -2,7 +2,9 @@ import sys
 sys.path.append('../500_common')
 import lib_reserve
 
-a = "Chrome13"
+a = "Chrome1res"
 b = "Profile 1"
 
-lib_reserve.main(a, b, False, waitTime=60)
+path = "../504_kyoto01/data/result.html"
+
+lib_reserve.main(a, b, path, waitTime=10, preTime=20)

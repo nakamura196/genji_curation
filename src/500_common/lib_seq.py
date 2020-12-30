@@ -13,14 +13,14 @@ import chromedriver_binary
 TIME_OUT = 10
 LOGIN_COUNT = 1000
 
-def login(driver, waitTime=10):
+def login(driver, waitTime=10, preTime=10):
     # GoogleログインURL
     url = 'https://mp.ex.nii.ac.jp/kuronet/'
 
     try:
         driver.get(url)
 
-        time.sleep(10)
+        time.sleep(preTime)
 
         # ログイン
         
@@ -37,7 +37,7 @@ def login(driver, waitTime=10):
     except Exception as e:
         print(e)
 
-def main(userDataDir, profileDirectory, localFlag, waitTime=10):
+def main(userDataDir, profileDirectory, localPath, waitTime=10, preTime=10, check=False):
 
     options = webdriver.ChromeOptions()
     options.add_argument('--user-data-dir='+userDataDir)
@@ -49,11 +49,11 @@ def main(userDataDir, profileDirectory, localFlag, waitTime=10):
     urls = []
     map = {}
 
-    login(driver, waitTime)
+    login(driver, waitTime, preTime)
 
     # ローカルファイルからの読み込み
-    if localFlag:
-        soup = BeautifulSoup(open("data/result.html"), "lxml")
+    if localPath != None:
+        soup = BeautifulSoup(open(localPath), "lxml")
     else:
         html = driver.page_source.encode('utf-8')
         soup = BeautifulSoup(html, "lxml")
@@ -90,7 +90,8 @@ def main(userDataDir, profileDirectory, localFlag, waitTime=10):
 
             print("index", i+1, "残りの行数", len(urls), "全行数", len(trs))
 
-            # print(map[url])
+            if check:
+                print(map[url])
 
             try:
                 driver.get(url)
