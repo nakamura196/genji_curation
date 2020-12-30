@@ -12,28 +12,32 @@ import chromedriver_binary
 TIME_OUT = 10
 LOGIN_COUNT = 100
 
-def login(driver):
+def login(driver, waitTime=10):
     # GoogleログインURL
     url = 'https://mp.ex.nii.ac.jp/kuronet/'
 
-    driver.get(url)
-
-    time.sleep(2)
-
-    # ログイン
-    
-    driver.find_element_by_xpath('//*[@onclick="dashboard();"]').click()
-
-    print("logged in")
-
-    time.sleep(2)
-
     try:
-        driver.execute_script("window.stop();")
-    except Exception as e:
-        print(e)
+        driver.get(url)
 
-def main(userDataDir, profileDirectory):
+        time.sleep(10)
+
+        # ログイン
+        
+        driver.find_element_by_xpath('//*[@onclick="dashboard();"]').click()
+
+        print("logged in")
+
+        time.sleep(waitTime)
+
+        try:
+            driver.execute_script("window.stop();")
+        except Exception as e:
+            print(e)
+            
+    except Exception as e:
+            print(e)
+
+def main(userDataDir, profileDirectory, waitTime=10):
 
     options = webdriver.ChromeOptions()
     options.add_argument('--user-data-dir='+userDataDir)
@@ -42,14 +46,17 @@ def main(userDataDir, profileDirectory):
     driver = webdriver.Chrome(options=options) #options=options, executable_path=driver_path
     driver.set_page_load_timeout(TIME_OUT)
 
-    login(driver)
+    login(driver, waitTime)
 
     # ローカルファイルからの読み込み
     if False:
         soup = BeautifulSoup(open("XXX/data/result.html"), "lxml")
     else:
-        html = driver.page_source.encode('utf-8')
-        soup = BeautifulSoup(html, "lxml")
+        try:
+            html = driver.page_source.encode('utf-8')
+            soup = BeautifulSoup(html, "lxml")
+        except Exception as e:
+            print(e)
 
     #全てのウィンドウを閉じる
     driver.quit()

@@ -11,6 +11,8 @@ def get_images_by_soup(soup):
 
     tr_list = soup.find_all("tr")
 
+    print("len(trs)", len(tr_list))
+
     images = []
 
     prefixes = {}
@@ -122,11 +124,11 @@ def post(url, areas, count_max, token, exist_images, type):
 
             merged_canvases.append(canvas)
 
-    flg = True
-
     params = []
 
     count_all = 0
+
+    print("len(merged_canvases)", len(merged_canvases) * 2)
 
     for j in range(len(merged_canvases)):
 

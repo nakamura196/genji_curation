@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 driver_path = '/usr/local/bin/chromedriver'
 
 options = webdriver.ChromeOptions()
-options.add_argument('--user-data-dir=Chrome')
+options.add_argument('--user-data-dir=Chrome32')
 options.add_argument('--profile-directory=Profile 3')  # この行を省略するとDefaultフォルダが指定されます
 
 driver = webdriver.Chrome(options=options)
@@ -43,11 +43,15 @@ for tr in trs:
 
     icv = td.find("a").get("href")
 
-    td2 = tds[2]
-    reserve = "https://mp.ex.nii.ac.jp" + td2.find("a").get("href")
-    
-    delete = reserve.replace("reserve", "delete")
-    urls.append(delete)
+    if "kotenseki" not in icv:
+        continue
+    else:
+
+        td2 = tds[2]
+        reserve = "https://mp.ex.nii.ac.jp" + td2.find("a").get("href")
+        
+        delete = reserve.replace("reserve", "delete")
+        urls.append(delete)
 
 print(len(urls))
 

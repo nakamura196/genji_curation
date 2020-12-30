@@ -154,7 +154,8 @@ def main(dirname0, dirname, manifests, soup):
 
         target = targets[i]
 
-        print(i+1, len(targets))
+        if i % 200 == 0:
+            print("target", i+1, len(targets))
 
         curation = target["curation"]
         manifest = target["manifest"]
@@ -166,10 +167,14 @@ def main(dirname0, dirname, manifests, soup):
 
         filename = curation.split("/")[-1]
         path = "data/curations/" + filename + ".json"
+        dirname = os.path.dirname(path)
+        os.makedirs(dirname, exist_ok=True)
 
         if not os.path.exists(path):
 
             # continue
+
+            print("downloading", uri)
 
             df = requests.get(uri).json()
 

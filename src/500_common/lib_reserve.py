@@ -13,13 +13,13 @@ import chromedriver_binary
 TIME_OUT = 10
 LOGIN_COUNT = 100
 
-def login(driver):
+def login(driver, waitTime=10):
     # GoogleログインURL
     url = 'https://mp.ex.nii.ac.jp/kuronet/'
 
     driver.get(url)
 
-    time.sleep(2)
+    time.sleep(10)
 
     # ログイン
     
@@ -27,14 +27,14 @@ def login(driver):
 
     print("logged in")
 
-    time.sleep(2)
+    time.sleep(waitTime)
 
     try:
         driver.execute_script("window.stop();")
     except Exception as e:
         print(e)
 
-def main(userDataDir, profileDirectory):
+def main(userDataDir, profileDirectory, localFlag, waitTime=10):
 
     options = webdriver.ChromeOptions()
     options.add_argument('--user-data-dir='+userDataDir)
@@ -46,11 +46,11 @@ def main(userDataDir, profileDirectory):
     urls = []
     map = {}
 
-    login(driver)
+    login(driver, waitTime)
 
     # ローカルファイルからの読み込み
-    if False:
-        soup = BeautifulSoup(open("XXX/data/result.html"), "lxml")
+    if localFlag:
+        soup = BeautifulSoup(open("data/result.html"), "lxml")
     else:
         html = driver.page_source.encode('utf-8')
         soup = BeautifulSoup(html, "lxml")
@@ -87,8 +87,33 @@ def main(userDataDir, profileDirectory):
         for i in range(len(urls)):
             url = urls[i]
             print("index", i+1, "残りの行数", len(urls), "全行数", len(trs), "行ID", map[url])
-            time.sleep(5)
-            driver.get(url)
+            
+
+            try:
+                driver.get(url)
+
+                html = driver.page_source.encode('utf-8')
+                soup = BeautifulSoup(html, "lxml")
+
+                wait = -1
+
+                
+                
+                try:
+                    wait = int(str(soup).split("現在")[1].split("件待")[0])
+                except Exception as e:
+                    print(e)
+
+                print("wait", wait)
+
+                time.sleep(2) # 終了後の待ち時間（必須）
+                # driver.get("http://localhost")
+
+                if wait > 3:
+                    time.sleep(10) # ここを変える
+            except Exception as e:
+                print(e)
+            
 
             if (i + 1) % LOGIN_COUNT == 0:
                 login(driver)

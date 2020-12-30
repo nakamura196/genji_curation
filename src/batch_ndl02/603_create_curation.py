@@ -287,8 +287,6 @@ for i in range(len(targets)):
 
 for manifest in sorted(map):
 
-    print(manifest)
-
     # count += 1
 
     members_map = map[manifest]
@@ -356,6 +354,8 @@ for manifest in sorted(map):
             }
         ]
     }
+
+    print(manifest, len(members))
 
     VOL = manifest.split("/")[-1].split(".json")[0]
 
