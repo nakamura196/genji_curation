@@ -3,65 +3,125 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
+from selenium.common.exceptions import TimeoutException
+
 import chromedriver_binary
 # モジュールのインポート
 from bs4 import BeautifulSoup
+
+import requests
+
+TIME_OUT = 10
+LOGIN_COUNT = 100
+
+########
+
+collection_url = "https://utda.github.io/genji/iiif/ndl-8943312/top.json"
+collection = requests.get(collection_url).json()
+
+manifests_arr = collection["manifests"]
+manifests = []
+for i in range(len(manifests_arr)):
+    manifest = manifests_arr[i]["@id"]
+    manifests.append(manifest)
+
+#########
+
+def login(driver, waitTime=10):
+    # GoogleログインURL
+    url = 'https://mp.ex.nii.ac.jp/kuronet/'
+
+    driver.get(url)
+
+    time.sleep(10)
+
+    # ログイン
+    
+    driver.find_element_by_xpath('//*[@onclick="dashboard();"]').click()
+
+    print("logged in")
+
+    time.sleep(waitTime)
+
+    try:
+        driver.execute_script("window.stop();")
+    except Exception as e:
+        print(e)
 
 # chromedriverのPATHを指定（Pythonファイルと同じフォルダの場合）
 driver_path = '/usr/local/bin/chromedriver'
 
 options = webdriver.ChromeOptions()
-options.add_argument('--user-data-dir=Chrome32')
+options.add_argument('--user-data-dir=Chrome31')
 options.add_argument('--profile-directory=Profile 3')  # この行を省略するとDefaultフォルダが指定されます
 
 driver = webdriver.Chrome(options=options)
+driver.set_page_load_timeout(TIME_OUT)
 
-# GoogleログインURL
-url = 'https://mp.ex.nii.ac.jp/kuronet/'
-driver.get(url)
+localFlag = False
+waitTime = 10
 
-time.sleep(5)
-
-# ログイン
-driver.find_element_by_xpath('//*[@onclick="dashboard();"]').click()
+login(driver, waitTime)
 
 # ローカルファイルからの読み込み
-soup = BeautifulSoup(open("data/result.html"), "lxml")
-trs = soup.find("tbody").find_all("tr")
+if localFlag:
+    soup = BeautifulSoup(open("data/result.html"), "lxml")
+else:
+    html = driver.page_source.encode('utf-8')
+    soup = BeautifulSoup(html, "lxml")
 
-# 予約の実行
+if soup.find("tbody"):
+    trs = soup.find("tbody").find_all("tr")
 
-urls = []
+    # 予約の実行
 
-for tr in trs:
-    tds = tr.find_all("td")
+    urls = []
 
-    td = tds[1]
-    if td.find("a") == None:
-        print("err", td)
-        continue
+    exists = []
 
-    icv = td.find("a").get("href")
+    for tr in trs:
+        tds = tr.find_all("td")
 
-    if "kotenseki" not in icv:
-        continue
-    else:
+        td = tds[1]
+        if td.find("a") == None:
+            print("err", td)
+            continue
 
-        td2 = tds[2]
-        reserve = "https://mp.ex.nii.ac.jp" + td2.find("a").get("href")
+        icv = td.find("a").get("href")
         
-        delete = reserve.replace("reserve", "delete")
-        urls.append(delete)
+        manifest = icv.split("manifest=")[1].split("&")[0]
 
-print(len(urls))
+        if manifest not in exists:
+            exists.append(manifest)
 
-for i in range(len(urls)):
-    print(i, len(urls))
+        if manifest in manifests:
+            td2 = tds[2]
+            reserve = "https://mp.ex.nii.ac.jp" + td2.find("a").get("href")
+            
+            delete = reserve.replace("reserve", "delete")
+            urls.append(delete)
 
-    url = urls[i]
+        '''
+        if "kotenseki" not in icv and False:
+            continue
+        else:
 
-    # time.sleep(1)
-    driver.get(url)
+            td2 = tds[2]
+            reserve = "https://mp.ex.nii.ac.jp" + td2.find("a").get("href")
+            
+            delete = reserve.replace("reserve", "delete")
+            urls.append(delete)
+        '''
+
+    print(len(urls))
+
+    for i in range(len(urls)):
+        print(i, len(urls))
+
+        url = urls[i]
+
+        # time.sleep(1)
+        driver.get(url)
 
 #全てのウィンドウを閉じる
 driver.quit()

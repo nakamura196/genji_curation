@@ -167,8 +167,8 @@ def main(dirname0, dirname, manifests, soup):
 
         filename = curation.split("/")[-1]
         path = "data/curations/" + filename + ".json"
-        dirname = os.path.dirname(path)
-        os.makedirs(dirname, exist_ok=True)
+        curation_dir = os.path.dirname(path)
+        os.makedirs(curation_dir, exist_ok=True)
 
         if not os.path.exists(path):
 
@@ -246,7 +246,7 @@ def main(dirname0, dirname, manifests, soup):
 
     for manifest in sorted(map):
 
-        print(manifest)
+        
 
         # count += 1
 
@@ -293,6 +293,8 @@ def main(dirname0, dirname, manifests, soup):
 
             # print(text)
 
+        
+
         curation = {
             "@context": [
                 "http://iiif.io/api/presentation/2/context.json",
@@ -317,6 +319,8 @@ def main(dirname0, dirname, manifests, soup):
         }
 
         VOL = manifest.split("/")[-1].split(".json")[0]
+
+        print(VOL, "size of members", len(members))
 
         path = "../../docs/iiif/"+dirname+"/"+VOL+".json"
         dirpath = os.path.dirname(path)

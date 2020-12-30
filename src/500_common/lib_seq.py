@@ -17,20 +17,23 @@ def login(driver, waitTime=10):
     # GoogleログインURL
     url = 'https://mp.ex.nii.ac.jp/kuronet/'
 
-    driver.get(url)
-
-    time.sleep(10)
-
-    # ログイン
-    
-    driver.find_element_by_xpath('//*[@onclick="dashboard();"]').click()
-
-    print("logged in")
-
-    time.sleep(waitTime)
-
     try:
-        driver.execute_script("window.stop();")
+        driver.get(url)
+
+        time.sleep(10)
+
+        # ログイン
+        
+        driver.find_element_by_xpath('//*[@onclick="dashboard();"]').click()
+
+        print("logged in")
+
+        time.sleep(waitTime)
+
+        try:
+            driver.execute_script("window.stop();")
+        except Exception as e:
+            print(e)
     except Exception as e:
         print(e)
 
