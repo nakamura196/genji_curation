@@ -1,0 +1,4 @@
+python 602_get_result.py
+python 603_create_curation.py
+python 701_match_taisei_all.py
+python 702_create_excel_taisei_all.py

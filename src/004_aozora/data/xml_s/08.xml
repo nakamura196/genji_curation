@@ -1,0 +1,2484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>
+     源氏物語・花宴・与謝野晶子訳
+    </title>
+    <author>
+     紫式部
+    </author>
+    <respStmt>
+     <orgName ref="http://www.aozora.gr.jp/">
+      青空文庫
+     </orgName>
+     <resp when="2003-04-28">
+      作成
+     </resp>
+     <resp/>
+     <note>
+      <lb/>
+      底本：「全訳源氏物語　上巻」角川文庫、角川書店
+      <lb/>
+      1971（昭和46）年8月10日改版初版発行
+      <lb/>
+      1994（平成6）年12月20日56版発行
+      <lb/>
+      ※このファイルは、古典総合研究所（http://www.genji.co.jp/）で入力されたものを、青空文庫形式にあらためて作成しました。
+      <lb/>
+      ※校正には、2002（平成14）年4月5日71版を使用しました。
+      <lb/>
+      入力：上田英代
+      <lb/>
+      校正：小林繁雄
+      <lb/>
+      <date when="2003-04-28">
+       2003年4月28日
+      </date>
+      作成
+      <lb/>
+      青空文庫作成ファイル：
+      <lb/>
+      このファイルは、インターネットの図書館、青空文庫（http://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。
+     </note>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Aozora Transcription
+     </resp>
+     <name>
+      上田英代
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Aozora Proofreading
+     </resp>
+     <name>
+      小林繁雄
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp when="2019-01-01">
+      TEI Encoding
+     </resp>
+     <name>
+      Satoru Nakamura
+     </name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <distributor>
+     SIG for East Asian/ Japanese, TEI Consortium
+    </distributor>
+    <availability>
+     <p>
+      <ref target="https://creativecommons.org/publicdomain/zero/1.0/">
+       CC0 1.0 Universal (CC0
+              1.0) Public Domain Dedication
+      </ref>
+     </p>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl>
+     Input by your self
+     <title>
+      源氏物語
+     </title>
+     <author>
+      紫式部
+     </author>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <p>
+    <lb>
+    </lb>
+    <lb>
+    </lb>
+    <lb>
+    </lb>
+    <seg rend="chitsuki_3" rendition="div" style="text-align:right; ">
+     <s xml:id="YG0800000100">
+      春の夜のもやにそひたる月ならん手枕
+     </s>
+    </seg>
+    <seg rend="chitsuki_3" rendition="div" style="text-align:right; ">
+     <s xml:id="YG0800000200">
+      かしぬ我が仮ぶしに　　　　（晶子）
+     </s>
+    </seg>
+    <s xml:id="YG0800000300">
+     <lb>
+     </lb>
+     二月の二十幾日に
+     <seg type="ruby">
+      <seg type="rb">
+       紫宸殿
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ししんでん
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の桜の宴があった。
+    </s>
+    <s xml:id="YG0800000400">
+     玉座の左右に
+     <seg type="ruby">
+      <seg type="rb">
+       中宮
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ちゅうぐう
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     と皇太子の御見物の室が設けられた。
+    </s>
+    <s xml:id="YG0800000500">
+     <seg type="ruby">
+      <seg type="rb">
+       弘徽殿
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       こきでん
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の
+     <seg type="ruby">
+      <seg type="rb">
+       女御
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       にょご
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     は
+     <seg type="ruby">
+      <seg type="rb">
+       藤壺
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ふじつぼ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の宮が中宮になっておいでになることで、何かのおりごとに不快を感じるのであるが、催し事の見物は好きで、東宮席で陪観していた。
+    </s>
+    <s xml:id="YG0800000600">
+     日がよく晴れて青空の色、鳥の声も朗らかな気のする南庭を見て親王方、高級官人をはじめとして詩を作る人々は皆
+     <seg type="ruby">
+      <seg type="rb">
+       探韵
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       たんいん
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     をいただいて詩を作った。
+    </s>
+    <s xml:id="YG0800000700">
+     源氏は、
+     <lb>
+     </lb>
+     「春という字を賜わる」
+     <lb>
+     </lb>
+     と、自身の得る
+     <seg type="ruby">
+      <seg type="rb">
+       韵字
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       いんじ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     を
+     <seg type="ruby">
+      <seg type="rb">
+       披露
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ひろう
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     したが、その声がすでに人よりすぐれていた。
+    </s>
+    <s xml:id="YG0800000800">
+     次は
+     <seg type="ruby">
+      <seg type="rb">
+       頭中将
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       とうのちゅうじょう
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     で、この順番を晴れがましく思うことであろうと見えたが、きわめて無難に得た韵字を告げた。
+    </s>
+    <s xml:id="YG0800000900">
+     <seg type="ruby">
+      <seg type="rb">
+       声
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       こわ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     づかいに貫目があると思われた。
+    </s>
+    <s xml:id="YG0800001000">
+     その他の人は
+     <seg type="ruby">
+      <seg type="rb">
+       臆
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       おく
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     してしまったようで、態度も声もものにならぬのが多かった。
+    </s>
+    <s xml:id="YG0800001100">
+     <seg type="ruby">
+      <seg type="rb">
+       地下
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       じげ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の詩人はまして、帝も東宮も詩のよい作家で、またよい批評家でおありになったし、そのほかにもすぐれた詩才のある官人の多い時代であったから、恥ずかしくて、清い広庭に出て行くことが、ちょっとしたことなのであるが難事に思われた。
+    </s>
+    <s xml:id="YG0800001200">
+     <seg type="ruby">
+      <seg type="rb">
+       博士
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       はかせ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     などがみすぼらしい
+     <seg type="ruby">
+      <seg type="rb">
+       風采
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ふうさい
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     をしながらも
+     <seg type="ruby">
+      <seg type="rb">
+       場馴
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ばな
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     れて進退するのにも御同情が寄ったりして、この御覧になる方々はおもしろく
+     <seg type="ruby">
+      <seg type="rb">
+       思召
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       おぼしめ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     された。
+    </s>
+    <s xml:id="YG0800001300">
+     奏せられる音楽も特にすぐれた人たちが選ばれていた。
+    </s>
+    <s xml:id="YG0800001400">
+     春の
+     <seg type="ruby">
+      <seg type="rb">
+       永日
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ながび
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     がようやく入り日の刻になるころ、
+     <seg type="ruby">
+      <seg type="rb">
+       春鶯囀
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       しゅんおうてん
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の舞がおもしろく舞われた。
+    </s>
+    <s xml:id="YG0800001500">
+     源氏の
+     <seg type="ruby">
+      <seg type="rb">
+       紅葉賀
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       もみじのが
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の
+     <seg type="ruby">
+      <seg type="rb">
+       青海波
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       せいがいは
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の巧妙であったことを忘れがたく
+     <seg type="ruby">
+      <seg type="rb">
+       思召
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       おぼしめ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     して、東宮が源氏へ
+     <seg type="ruby">
+      <seg type="rb">
+       挿
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       かざし
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の花を下賜あそばして、ぜひこの舞に加わるようにと切望あそばされた。
+    </s>
+    <s xml:id="YG0800001600">
+     辞しがたくて、一振りゆるゆる
+     <seg type="ruby">
+      <seg type="rb">
+       袖
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       そで
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     を
+     <seg type="ruby">
+      <seg type="rb">
+       反
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       かえ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     す春鶯囀の一節を源氏も舞ったが、だれも追随しがたい巧妙さはそれだけにも見えた。
+    </s>
+    <s xml:id="YG0800001700">
+     左大臣は恨めしいことも忘れて落涙していた。
+    </s>
+    <s xml:id="YG0800001800">
+     <lb>
+     </lb>
+     「頭中将はどうしたか、早く出て舞わぬか」
+     <lb>
+     </lb>
+     次いでその仰せがあって、
+     <seg type="ruby">
+      <seg type="rb">
+       柳花苑
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       りゅうかえん
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     という曲を、これは源氏のよりも長く、こんなことを予期して稽古がしてあったか
+     <seg type="ruby">
+      <seg type="rb">
+       上手
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       じょうず
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     に舞った。
+    </s>
+    <s xml:id="YG0800001900">
+     それによって中将は
+     <seg type="ruby">
+      <seg type="rb">
+       御衣
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ぎょい
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     を賜わった。
+    </s>
+    <s xml:id="YG0800002000">
+     花の宴にこのことのあるのを珍しい光栄だと人々は見ていた。
+    </s>
+    <s xml:id="YG0800002100">
+     高級の官人もしまいには皆舞ったが、暗くなってからは芸の
+     <seg type="ruby">
+      <seg type="rb">
+       巧拙
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       こうせつ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     がよくわからなくなった。
+    </s>
+    <s xml:id="YG0800002200">
+     詩の講ぜられる時にも源氏の作は簡単には済まなかった。
+    </s>
+    <s xml:id="YG0800002300">
+     句ごとに讃美の声が起こるからである。
+    </s>
+    <s xml:id="YG0800002400">
+     博士たちもこれを非常によい作だと思った。
+    </s>
+    <s xml:id="YG0800002500">
+     こんな時にもただただその人が光になっている源氏を、父君陛下がおろそかに思召すわけはない。
+    </s>
+    <s xml:id="YG0800002600">
+     中宮はすぐれた源氏の美貌がお目にとまるにつけても、東宮の母君の女御がどんな心でこの人を憎みうるのであろうと不思議にお思いになり、そのあとではまたこんなふうに源氏に関心を持つのもよろしくない心であると思召した。
+    </s>
+    <lb>
+    </lb>
+    <lb>
+    </lb>
+    <seg rend="jisage_2" rendition="div" style="margin-left: 2em">
+     <s xml:id="YG0800002700">
+      大かたに花の姿を見ましかばつゆも心のおかれましやは
+      <lb>
+      </lb>
+     </s>
+    </seg>
+    <s xml:id="YG0800002800">
+     <lb>
+     </lb>
+     こんな歌はだれにもお見せになるはずのものではないが、どうして伝わっているのであろうか。
+    </s>
+    <s xml:id="YG0800002900">
+     夜がふけてから南殿の宴は終わった。
+    </s>
+    <s xml:id="YG0800003000">
+     <lb>
+     </lb>
+     <seg type="ruby">
+      <seg type="rb">
+       公卿
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       こうけい
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     が皆退出するし、中宮と東宮はお
+     <seg type="ruby">
+      <seg type="rb">
+       住居
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       すまい
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の御殿へお帰りになって静かになった。
+    </s>
+    <s xml:id="YG0800003100">
+     明るい月が上ってきて、春の夜の御所の中が美しいものになっていった。
+    </s>
+    <s xml:id="YG0800003200">
+     酔いを帯びた源氏はこのままで
+     <seg type="ruby">
+      <seg type="rb">
+       宿直所
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       とのいどころ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     へはいるのが惜しくなった。
+    </s>
+    <s xml:id="YG0800003300">
+     <seg type="ruby">
+      <seg type="rb">
+       殿上
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       てんじょう
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の役人たちももう
+     <seg type="ruby">
+      <seg type="rb">
+       寝
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       やす
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     んでしまっているこんな夜ふけにもし中宮へ接近する機会を拾うことができたらと思って、源氏は藤壺の御殿をそっとうかがってみたが、女房を呼び出すような戸口も皆閉じてしまってあったので、
+     <seg type="ruby">
+      <seg type="rb">
+       歎息
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       たんそく
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     しながら、なお物足りない心を満たしたいように弘徽殿の細殿の所へ歩み寄ってみた。
+    </s>
+    <s xml:id="YG0800003400">
+     三の口があいている。
+    </s>
+    <s xml:id="YG0800003500">
+     女御は宴会のあとそのまま宿直に上がっていたから、女房たちなどもここには少しよりいないふうがうかがわれた。
+    </s>
+    <s xml:id="YG0800003600">
+     この戸口の奥にあるくるる戸もあいていて、そして人音がない。
+    </s>
+    <s xml:id="YG0800003700">
+     こうした不用心な時に男も女もあやまった運命へ踏み込むものだと思って源氏は静かに縁側へ上がって中をのぞいた。
+    </s>
+    <s xml:id="YG0800003800">
+     だれももう寝てしまったらしい。
+    </s>
+    <s xml:id="YG0800003900">
+     若々しく貴女らしい声で、「
+     <seg type="ruby">
+      <seg type="rb">
+       朧月夜
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       おぼろづきよ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     に似るものぞなき」と歌いながらこの戸口へ出て来る人があった。
+    </s>
+    <s xml:id="YG0800004000">
+     源氏はうれしくて突然
+     <seg type="ruby">
+      <seg type="rb">
+       袖
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       そで
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     をとらえた。
+    </s>
+    <s xml:id="YG0800004100">
+     女はこわいと思うふうで、
+     <lb>
+     </lb>
+     「気味が悪い、だれ」
+     <lb>
+     </lb>
+     と言ったが、
+     <lb>
+     </lb>
+     「何もそんなこわいものではありませんよ」
+     <lb>
+     </lb>
+     と源氏は言って、さらに、
+     <lb>
+     </lb>
+     <lb>
+     </lb>
+    </s>
+    <seg rend="jisage_2" rendition="div" style="margin-left: 2em">
+     <s xml:id="YG0800004200">
+      深き夜の哀れを知るも入る月のおぼろげならぬ契りとぞ思ふ
+      <lb>
+      </lb>
+     </s>
+    </seg>
+    <s xml:id="YG0800004300">
+     <lb>
+     </lb>
+     とささやいた。
+    </s>
+    <s xml:id="YG0800004400">
+     抱いて行った人を静かに一室へおろしてから三の口をしめた。
+    </s>
+    <s xml:id="YG0800004500">
+     この不謹慎な
+     <seg type="ruby">
+      <seg type="rb">
+       闖入者
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ちんにゅうしゃ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     にあきれている女の様子が柔らかに美しく感ぜられた。
+    </s>
+    <s xml:id="YG0800004600">
+     <seg type="ruby">
+      <seg type="rb">
+       慄
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ふる
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     え声で、
+     <lb>
+     </lb>
+     「ここに知らぬ人が」
+     <lb>
+     </lb>
+     と言っていたが、
+     <lb>
+     </lb>
+     「私はもう皆に同意させてあるのだから、お呼びになってもなんにもなりませんよ。
+    </s>
+    <s xml:id="YG0800004700">
+     静かに話しましょうよ」
+     <lb>
+     </lb>
+     この声に源氏であると知って女は少し不気味でなくなった。
+    </s>
+    <s xml:id="YG0800004800">
+     困りながらも冷淡にしたくはないと女は思っている。
+    </s>
+    <s xml:id="YG0800004900">
+     源氏は酔い過ぎていたせいでこのままこの女と別れることを残念に思ったか、女も若々しい一方で抵抗をする力がなかったか、二人は陥るべきところへ落ちた。
+    </s>
+    <s xml:id="YG0800005000">
+     <seg type="ruby">
+      <seg type="rb">
+       可憐
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       かれん
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     な相手に心の
+     <seg type="ruby">
+      <seg type="rb">
+       惹
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ひ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     かれる源氏は、それからほどなく明けてゆく夜に別れを促されるのを苦しく思った。
+    </s>
+    <s xml:id="YG0800005100">
+     女はまして心を乱していた。
+    </s>
+    <s xml:id="YG0800005200">
+     <lb>
+     </lb>
+     「ぜひ言ってください、だれであるかをね。
+    </s>
+    <s xml:id="YG0800005300">
+     どんなふうにして手紙を上げたらいいのか、これきりとはあなただって思わないでしょう」
+     <lb>
+     </lb>
+     などと源氏が言うと、
+     <lb>
+     </lb>
+     <lb>
+     </lb>
+    </s>
+    <seg rend="jisage_2" rendition="div" style="margin-left: 2em">
+     <s xml:id="YG0800005400">
+      うき身世にやがて消えなば尋ねても草の原をば訪はじとや思ふ
+      <lb>
+      </lb>
+     </s>
+    </seg>
+    <s xml:id="YG0800005500">
+     <lb>
+     </lb>
+     という様子にきわめて
+     <seg type="ruby">
+      <seg type="rb">
+       艶
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       えん
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     な所があった。
+    </s>
+    <s xml:id="YG0800005600">
+     <lb>
+     </lb>
+     「そう、私の言ったことはあなたのだれであるかを捜す努力を惜しんでいるように聞こえましたね」
+     <lb>
+     </lb>
+     と言って、また、
+     <lb>
+     </lb>
+     <lb>
+     </lb>
+    </s>
+    <seg rend="jisage_1" rendition="div" style="margin-left: 1em">
+     <s xml:id="YG0800005700">
+      「
+      <seg type="ruby">
+       <seg type="rb">
+        何
+       </seg>
+       <seg type="rp">
+        （
+       </seg>
+       <seg type="rt">
+        いづ
+       </seg>
+       <seg type="rp">
+        ）
+       </seg>
+      </seg>
+      れぞと露のやどりをわかむ間に
+      <seg type="ruby">
+       <seg type="rb">
+        小笹
+       </seg>
+       <seg type="rp">
+        （
+       </seg>
+       <seg type="rt">
+        こざさ
+       </seg>
+       <seg type="rp">
+        ）
+       </seg>
+      </seg>
+      が原に風もこそ吹け
+      <lb>
+      </lb>
+     </s>
+    </seg>
+    <s xml:id="YG0800005800">
+     <lb>
+     </lb>
+     私との関係を迷惑にお思いにならないのだったら、お隠しになる必要はないじゃありませんか。
+    </s>
+    <s xml:id="YG0800005900">
+     わざとわからなくするのですか」
+     <lb>
+     </lb>
+     と言い切らぬうちに、もう女房たちが起き出して女御を迎えに行く者、あちらから下がって来る者などが廊下を通るので、落ち着いていられずに扇だけをあとのしるしに取り替えて源氏はその室を出てしまった。
+    </s>
+    <s xml:id="YG0800006000">
+     <lb>
+     </lb>
+     源氏の
+     <seg type="ruby">
+      <seg type="rb">
+       桐壺
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       きりつぼ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     には女房がおおぜいいたから、主人が暁に帰った音に目をさました女もあるが、忍び歩きに好意を持たないで、
+     <lb>
+     </lb>
+     「いつもいつも、まあよくも続くものですね」
+     <lb>
+     </lb>
+     という意味を仲間で
+     <seg type="ruby">
+      <seg type="rb">
+       肱
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ひじ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     や手を突き合うことで言って、寝入ったふうを装うていた。
+    </s>
+    <s xml:id="YG0800006100">
+     寝室にはいったが眠れない源氏であった。
+    </s>
+    <s xml:id="YG0800006200">
+     美しい感じの人だった。
+    </s>
+    <s xml:id="YG0800006300">
+     女御の妹たちであろうが、処女であったから五の君か六の君に違いない。
+    </s>
+    <s xml:id="YG0800006400">
+     <seg type="ruby">
+      <seg type="rb">
+       太宰帥
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       だざいのそつ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     親王の夫人や頭中将が愛しない四の君などは美人だと聞いたが、かえってそれであったらおもしろい恋を経験することになるのだろうが、六の君は東宮の
+     <seg type="ruby">
+      <seg type="rb">
+       後宮
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       こうきゅう
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     へ入れるはずだとか聞いていた、その人であったら気の毒なことになったというべきである。
+    </s>
+    <s xml:id="YG0800006500">
+     幾人もある右大臣の娘のどの人であるかを知ることは困難なことであろう。
+    </s>
+    <s xml:id="YG0800006600">
+     もう逢うまいとは思わぬ様子であった人が、なぜ手紙を往復させる方法について何ごとも教えなかったのであろうなどとしきりに考えられるのも心が
+     <seg type="ruby">
+      <seg type="rb">
+       惹
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ひ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     かれているといわねばならない。
+    </s>
+    <s xml:id="YG0800006700">
+     思いがけぬことの行なわれたについても、
+     <seg type="ruby">
+      <seg type="rb">
+       藤壺
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ふじつぼ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     にはいつもああした
+     <seg type="ruby">
+      <seg type="rb">
+       隙
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       すき
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     がないと、昨夜の
+     <seg type="ruby">
+      <seg type="rb">
+       弘徽殿
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       こきでん
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     のつけこみやすかったことと比較して
+     <seg type="ruby">
+      <seg type="rb">
+       主人
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       あるじ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の女御にいくぶんの
+     <seg type="ruby">
+      <seg type="rb">
+       軽蔑
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       けいべつ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の念が起こらないでもなかった。
+    </s>
+    <s xml:id="YG0800006800">
+     <lb>
+     </lb>
+     この日は
+     <seg type="ruby">
+      <seg type="rb">
+       後宴
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ごえん
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     であった。
+    </s>
+    <s xml:id="YG0800006900">
+     終日そのことに携わっていて源氏はからだの
+     <seg type="ruby">
+      <seg type="rb">
+       閑暇
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ひま
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     がなかった。
+    </s>
+    <s xml:id="YG0800007000">
+     十三
+     <seg type="ruby">
+      <seg type="rb">
+       絃
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       げん
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の
+     <seg type="ruby">
+      <seg type="rb">
+       箏
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       そう
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の琴の役をこの日は勤めたのである。
+    </s>
+    <s xml:id="YG0800007100">
+     昨日の宴よりも
+     <seg type="ruby">
+      <seg type="rb">
+       長閑
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       のどか
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     な気分に満ちていた。
+    </s>
+    <s xml:id="YG0800007200">
+     中宮は夜明けの時刻に南殿へおいでになったのである。
+    </s>
+    <s xml:id="YG0800007300">
+     弘徽殿の
+     <seg type="ruby">
+      <seg type="rb">
+       有明
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ありあけ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の月に別れた人はもう御所を出て行ったであろうかなどと、源氏の心はそのほうへ飛んで行っていた。
+    </s>
+    <s xml:id="YG0800007400">
+     気のきいた
+     <seg type="ruby">
+      <seg type="rb">
+       良清
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       よしきよ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     や
+     <seg type="ruby">
+      <seg type="rb">
+       惟光
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       これみつ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     に命じて見張らせておいたが、源氏が
+     <seg type="ruby">
+      <seg type="rb">
+       宿直所
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       とのいどころ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     のほうへ帰ると、
+     <lb>
+     </lb>
+     「ただ今北の御門のほうに早くから来ていました車が皆人を乗せて出てまいるところでございますが、女御さん方の実家の人たちがそれぞれ行きます中に、四位少将、右中弁などが御前から下がって来てついて行きますのが弘徽殿の実家の方々だと見受けました。
+    </s>
+    <s xml:id="YG0800007500">
+     ただ女房たちだけの乗ったのでないことはよく知れていまして、そんな車が三台ございました」
+     <lb>
+     </lb>
+     と報告をした。
+    </s>
+    <s xml:id="YG0800007600">
+     源氏は胸のとどろくのを覚えた。
+    </s>
+    <s xml:id="YG0800007700">
+     どんな方法によって
+     <seg type="ruby">
+      <seg type="rb">
+       何女
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       なにじょ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     であるかを知ればよいか、父の右大臣にその関係を知られて婿としてたいそうに待遇されるようなことになって、それでいいことかどうか。
+    </s>
+    <s xml:id="YG0800007800">
+     その人の性格も何もまだよく知らないのであるから、結婚をしてしまうのは危険である、そうかといってこのまま関係が進展しないことにも堪えられない、どうすればいいのかとつくづく物思いをしながら源氏は寝ていた。
+    </s>
+    <s xml:id="YG0800007900">
+     姫君がどんなに寂しいことだろう、幾日も帰らないのであるからとかわいく二条の院の人を思いやってもいた。
+    </s>
+    <s xml:id="YG0800008000">
+     取り替えてきた扇は、桜色の薄様を三重に張ったもので、地の濃い所に
+     <seg type="ruby">
+      <seg type="rb">
+       霞
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       かす
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     んだ月が
+     <seg type="ruby">
+      <seg type="rb">
+       描
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       か
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     いてあって、下の流れにもその影が映してある。
+    </s>
+    <s xml:id="YG0800008100">
+     珍しくはないが
+     <seg type="ruby">
+      <seg type="rb">
+       貴女
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       きじょ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の手に使い
+     <seg type="ruby">
+      <seg type="rb">
+       馴
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       な
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     らされた跡がなんとなく残っていた。
+    </s>
+    <s xml:id="YG0800008200">
+     「草の原をば」と言った時の美しい様子が目から去らない源氏は、
+     <lb>
+     </lb>
+     <lb>
+     </lb>
+    </s>
+    <seg rend="jisage_2" rendition="div" style="margin-left: 2em">
+     <s xml:id="YG0800008300">
+      世に知らぬここちこそすれ有明の月の
+      <seg type="ruby">
+       <seg type="rb">
+        行方
+       </seg>
+       <seg type="rp">
+        （
+       </seg>
+       <seg type="rt">
+        ゆくへ
+       </seg>
+       <seg type="rp">
+        ）
+       </seg>
+      </seg>
+      を空にまがへて
+      <lb>
+      </lb>
+     </s>
+    </seg>
+    <s xml:id="YG0800008400">
+     <lb>
+     </lb>
+     と扇に書いておいた。
+    </s>
+    <s xml:id="YG0800008500">
+     <lb>
+     </lb>
+     翌朝源氏は、左大臣家へ久しく行かないことも思われながら、二条の院の少女が気がかりで、寄ってなだめておいてから行こうとして自邸のほうへ帰った。
+    </s>
+    <s xml:id="YG0800008600">
+     二、三日ぶりに見た最初の瞬間にも若紫の美しくなったことが感ぜられた。
+    </s>
+    <s xml:id="YG0800008700">
+     <seg type="ruby">
+      <seg type="rb">
+       愛嬌
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       あいきょう
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     があって、そしてまた凡人から見いだしがたい貴女らしさを多く備えていた。
+    </s>
+    <s xml:id="YG0800008800">
+     理想どおりに育て上げようとする源氏の好みにあっていくようである。
+    </s>
+    <s xml:id="YG0800008900">
+     教育にあたるのが男であるから、いくぶんおとなしさが少なくなりはせぬかと思われて、その点だけを源氏は
+     <seg type="ruby">
+      <seg type="rb">
+       危
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       あやぶ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     んだ。
+    </s>
+    <s xml:id="YG0800009000">
+     この二、三日間に宮中であったことを語って聞かせたり、琴を教えたりなどしていて、日が暮れると源氏が出かけるのを、紫の女王は少女心に物足らず思っても、このごろは習慣づけられていて、無理に留めようなどとはしない。
+    </s>
+    <s xml:id="YG0800009100">
+     <lb>
+     </lb>
+     左大臣家の源氏の夫人は例によってすぐには出て来なかった。
+    </s>
+    <s xml:id="YG0800009200">
+     いつまでも座に一人でいてつれづれな源氏は、夫人との間柄に
+     <seg type="ruby">
+      <seg type="rb">
+       一抹
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       いちまつ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の寂しさを感じて、琴をかき鳴らしながら、「やはらかに
+     <seg type="ruby">
+      <seg type="rb">
+       寝
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ぬ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     る夜はなくて」と歌っていた。
+    </s>
+    <s xml:id="YG0800009300">
+     左大臣が来て、花の宴のおもしろかったことなどを源氏に話していた。
+    </s>
+    <s xml:id="YG0800009400">
+     <lb>
+     </lb>
+     「私がこの年になるまで、四代の天子の宮廷を見てまいりましたが、今度ほどよい詩がたくさんできたり、音楽のほうの才人がそろっていたりしまして、寿命の延びる気がするようなおもしろさを味わわせていただいたことはありませんでした。
+    </s>
+    <s xml:id="YG0800009500">
+     ただ今は専門家に名人が多うございますからね、あなたなどは師匠の人選がよろしくてあのおできぶりだったのでしょう。
+    </s>
+    <s xml:id="YG0800009600">
+     老人までも舞って出たい気がいたしましたよ」
+     <lb>
+     </lb>
+     「特に今度のために
+     <seg type="ruby">
+      <seg type="rb">
+       稽古
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       けいこ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     などはしませんでした。
+    </s>
+    <s xml:id="YG0800009700">
+     ただ宮廷付きの中でのよい楽人に参考になることを教えてもらいなどしただけです。
+    </s>
+    <s xml:id="YG0800009800">
+     何よりも頭中将の
+     <seg type="ruby">
+      <seg type="rb">
+       柳花苑
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       りゅうかえん
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     がみごとでした。
+    </s>
+    <s xml:id="YG0800009900">
+     話になって後世へ伝わる至芸だと思ったのですが、その上あなたがもし当代の
+     <seg type="ruby">
+      <seg type="rb">
+       礼讃
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       らいさん
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     に一手でも舞を見せてくださいましたら歴史上に残ってこの
+     <seg type="ruby">
+      <seg type="rb">
+       御代
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       みよ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の誇りになったでしょうが」
+     <lb>
+     </lb>
+     こんな話をしていた。
+    </s>
+    <s xml:id="YG0800010000">
+     弁や中将も出て来て高欄に背中を押しつけながらまた熱心に器楽の合奏を始めた。
+    </s>
+    <s xml:id="YG0800010100">
+     <lb>
+     </lb>
+     <seg type="ruby">
+      <seg type="rb">
+       有明
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ありあけ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の君は短い夢のようなあの夜を心に思いながら、悩ましく日を送っていた。
+    </s>
+    <s xml:id="YG0800010200">
+     東宮の後宮へこの四月ごろはいることに親たちが決めているのが
+     <seg type="ruby">
+      <seg type="rb">
+       苦悶
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       くもん
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の原因である。
+    </s>
+    <s xml:id="YG0800010300">
+     源氏もまったく
+     <seg type="ruby">
+      <seg type="rb">
+       何人
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       なにびと
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     であるかの見分けがつかなかったわけではなかったが、右大臣家の何女であるかがわからないことであったし、自分へことさら好意を持たない弘徽殿の女御の一族に恋人を求めようと働きかけることは
+     <seg type="ruby">
+      <seg type="rb">
+       世間体
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       せけんてい
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     のよろしくないことであろうとも
+     <seg type="ruby">
+      <seg type="rb">
+       躊躇
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ちゅうちょ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     されて、
+     <seg type="ruby">
+      <seg type="rb">
+       煩悶
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       はんもん
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     を重ねているばかりであった。
+    </s>
+    <s xml:id="YG0800010400">
+     <lb>
+     </lb>
+     三月の二十日過ぎに右大臣は自邸で弓の勝負の催しをして、親王方をはじめ高官を多く招待した。
+    </s>
+    <s xml:id="YG0800010500">
+     <seg type="ruby">
+      <seg type="rb">
+       藤花
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       とうか
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の宴も続いて同じ日に行なわれることになっているのである。
+    </s>
+    <s xml:id="YG0800010600">
+     もう桜の盛りは過ぎているのであるが、「ほかの散りなんあとに咲かまし」と教えられてあったか二本だけよく咲いたのがあった。
+    </s>
+    <s xml:id="YG0800010700">
+     新築して外孫の内親王方の
+     <seg type="ruby">
+      <seg type="rb">
+       裳着
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       もぎ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     に用いて、美しく装飾された客殿があった。
+    </s>
+    <s xml:id="YG0800010800">
+     <seg type="ruby">
+      <seg type="rb">
+       派手
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       はで
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     な
+     <seg type="ruby">
+      <seg type="rb">
+       邸
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       やしき
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     で何事も皆近代好みであった。
+    </s>
+    <s xml:id="YG0800010900">
+     右大臣は源氏の君にも宮中で逢った日に来会を申し入れたのであるが、その日に美貌の源氏が姿を見せないのを残念に思って、
+     <seg type="ruby">
+      <seg type="rb">
+       息子
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       むすこ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の四位少将を迎えに出した。
+    </s>
+    <lb>
+    </lb>
+    <lb>
+    </lb>
+    <seg rend="jisage_2" rendition="div" style="margin-left: 2em">
+     <s xml:id="YG0800011000">
+      わが宿の花しなべての色ならば何かはさらに君を待たまし
+      <lb>
+      </lb>
+     </s>
+    </seg>
+    <s xml:id="YG0800011100">
+     <lb>
+     </lb>
+     右大臣から源氏へ贈った歌である。
+    </s>
+    <s xml:id="YG0800011200">
+     源氏は御所にいた時で、
+     <seg type="ruby">
+      <seg type="rb">
+       帝
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       みかど
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     にこのことを申し上げた。
+    </s>
+    <s xml:id="YG0800011300">
+     <lb>
+     </lb>
+     「得意なのだね」
+     <lb>
+     </lb>
+     帝はお笑いになって、
+     <lb>
+     </lb>
+     「使いまでもよこしたのだから行ってやるがいい。
+    </s>
+    <s xml:id="YG0800011400">
+     孫の内親王たちのために将来兄として力になってもらいたいと願っている大臣の
+     <seg type="ruby">
+      <seg type="rb">
+       家
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       うち
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     だから」
+     <lb>
+     </lb>
+     など仰せられた。
+    </s>
+    <s xml:id="YG0800011500">
+     ことに美しく装って、ずっと日が暮れてから待たれて源氏は行った。
+    </s>
+    <s xml:id="YG0800011600">
+     桜の色の
+     <seg type="ruby">
+      <seg type="rb">
+       支那錦
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       しなにしき
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の
+     <seg type="ruby">
+      <seg type="rb">
+       直衣
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       のうし
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     、赤紫の
+     <seg type="ruby">
+      <seg type="rb">
+       下襲
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       したがさね
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の
+     <seg type="ruby">
+      <seg type="rb">
+       裾
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       すそ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     を長く引いて、ほかの人は皆正装の
+     <seg type="ruby">
+      <seg type="rb">
+       袍
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ほう
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     を着て出ている席へ、
+     <seg type="ruby">
+      <seg type="rb">
+       艶
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       えん
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     な宮様姿をした源氏が、多数の人に敬意を表されながらはいって行った。
+    </s>
+    <s xml:id="YG0800011700">
+     桜の花の美がこの時にわかに減じてしまったように思われた。
+    </s>
+    <s xml:id="YG0800011800">
+     音楽の遊びも済んでから、夜が少しふけた時分である。
+    </s>
+    <s xml:id="YG0800011900">
+     源氏は酒の酔いに悩むふうをしながらそっと席を立った。
+    </s>
+    <s xml:id="YG0800012000">
+     中央の
+     <seg type="ruby">
+      <seg type="rb">
+       寝殿
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       しんでん
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     に
+     <seg type="ruby">
+      <seg type="rb">
+       女一
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       にょいち
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の
+     <seg type="ruby">
+      <seg type="rb">
+       宮
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       みや
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     、女三の宮が住んでおいでになるのであるが、そこの東の妻戸の口へ源氏はよりかかっていた。
+    </s>
+    <s xml:id="YG0800012100">
+     <seg type="ruby">
+      <seg type="rb">
+       藤
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ふじ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     はこの縁側と東の対の間の庭に咲いているので、格子は皆上げ渡されていた。
+    </s>
+    <s xml:id="YG0800012200">
+     <seg type="ruby">
+      <seg type="rb">
+       御簾
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       みす
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     ぎわには女房が並んでいた。
+    </s>
+    <s xml:id="YG0800012300">
+     その人たちの外へ出している
+     <seg type="ruby">
+      <seg type="rb">
+       袖口
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       そでぐち
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の重なりようの大ぎょうさは
+     <seg type="ruby">
+      <seg type="rb">
+       踏歌
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       とうか
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の夜の見物席が思われた。
+    </s>
+    <s xml:id="YG0800012400">
+     今日などのことにつりあったことではないと見て、趣味の洗練された藤壺辺のことがなつかしく源氏には思われた。
+    </s>
+    <s xml:id="YG0800012500">
+     <lb>
+     </lb>
+     「苦しいのにしいられた酒で私は困っています。
+    </s>
+    <s xml:id="YG0800012600">
+     もったいないことですがこちらの宮様にはかばっていただく縁故があると思いますから」
+     <lb>
+     </lb>
+     妻戸に添った御簾の下から上半身を少し源氏は中へ入れた。
+    </s>
+    <s xml:id="YG0800012700">
+     <lb>
+     </lb>
+     「困ります。
+    </s>
+    <s xml:id="YG0800012800">
+     あなた様のような尊貴な御身分の方は親類の縁故などをおっしゃるものではございませんでしょう」
+     <lb>
+     </lb>
+     と言う女の様子には、重々しさはないが、ただの若い女房とは思われぬ品のよさと美しい感じのあるのを源氏は認めた。
+    </s>
+    <s xml:id="YG0800012900">
+     <seg type="ruby">
+      <seg type="rb">
+       薫物
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       たきもの
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     が煙いほどに
+     <seg type="ruby">
+      <seg type="rb">
+       焚
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       た
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     かれていて、この室内に
+     <seg type="ruby">
+      <seg type="rb">
+       起
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       た
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     ち
+     <seg type="ruby">
+      <seg type="rb">
+       居
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       い
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     する女の
+     <seg type="ruby">
+      <seg type="rb">
+       衣摺
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       きぬず
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     れの音がはなやかなものに思われた。
+    </s>
+    <s xml:id="YG0800013000">
+     奥ゆかしいところは欠けて、
+     <seg type="ruby">
+      <seg type="rb">
+       派手
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       はで
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     な現代型の
+     <seg type="ruby">
+      <seg type="rb">
+       贅沢
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ぜいたく
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     さが見えるのである。
+    </s>
+    <s xml:id="YG0800013100">
+     令嬢たちが見物のためにこの辺へ出ているので、妻戸がしめられてあったものらしい。
+    </s>
+    <s xml:id="YG0800013200">
+     <seg type="ruby">
+      <seg type="rb">
+       貴女
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       きじょ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     がこんな所へ出ているというようなことに賛意は表されなかったが、さすがに若い源氏としておもしろいことに思われた。
+    </s>
+    <s xml:id="YG0800013300">
+     この中のだれを恋人と見分けてよいのかと源氏の胸はとどろいた。
+    </s>
+    <s xml:id="YG0800013400">
+     「扇を取られてからき目を見る」（
+     <seg type="ruby">
+      <seg type="rb">
+       高麗人
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       こまうど
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     に帯を取られてからき目を見る）
+     <seg type="ruby">
+      <seg type="rb">
+       戯談
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       じょうだん
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     らしくこう言って御簾に身を寄せていた。
+    </s>
+    <s xml:id="YG0800013500">
+     <lb>
+     </lb>
+     「変わった
+     <seg type="ruby">
+      <seg type="rb">
+       高麗人
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       こまうど
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     なのね」
+     <lb>
+     </lb>
+     と言う一人は無関係な令嬢なのであろう。
+    </s>
+    <s xml:id="YG0800013600">
+     何も言わずに時々
+     <seg type="ruby">
+      <seg type="rb">
+       溜息
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ためいき
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の聞こえる人のいるほうへ源氏は寄って行って、
+     <seg type="ruby">
+      <seg type="rb">
+       几帳
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       きちょう
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     越しに手をとらえて、
+     <lb>
+     </lb>
+     <lb>
+     </lb>
+    </s>
+    <seg rend="jisage_1" rendition="div" style="margin-left: 1em">
+     <s xml:id="YG0800013700">
+      「あづさ弓いるさの山にまどふかなほの見し月の影や見ゆると
+      <lb>
+      </lb>
+     </s>
+    </seg>
+    <s xml:id="YG0800013800">
+     <lb>
+     </lb>
+     なぜでしょう」
+     <lb>
+     </lb>
+     と当て推量に言うと、その人も感情をおさえかねたか、
+     <lb>
+     </lb>
+     <lb>
+     </lb>
+    </s>
+    <seg rend="jisage_2" rendition="div" style="margin-left: 2em">
+     <s xml:id="YG0800013900">
+      心いる
+      <seg type="ruby">
+       <seg type="rb">
+        方
+       </seg>
+       <seg type="rp">
+        （
+       </seg>
+       <seg type="rt">
+        かた
+       </seg>
+       <seg type="rp">
+        ）
+       </seg>
+      </seg>
+      なりませば
+      <seg type="ruby">
+       <seg type="rb">
+        弓張
+       </seg>
+       <seg type="rp">
+        （
+       </seg>
+       <seg type="rt">
+        ゆみはり
+       </seg>
+       <seg type="rp">
+        ）
+       </seg>
+      </seg>
+      の月なき空に迷はましやは
+      <lb>
+      </lb>
+     </s>
+    </seg>
+    <s xml:id="YG0800014000">
+     <lb>
+     </lb>
+     と返辞をした。
+    </s>
+    <s xml:id="YG0800014100">
+     <seg type="ruby">
+      <seg type="rb">
+       弘徽殿
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       こきでん
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の月夜に聞いたのと同じ声である。
+    </s>
+    <s xml:id="YG0800014200">
+     源氏はうれしくてならないのであるが。
+    </s>
+   </p>
+  </body>
+ </text>
+</TEI>

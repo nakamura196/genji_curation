@@ -1,0 +1,589 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "sc:Manifest",
+    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/manifest.json",
+    "label": "[源氏物語] 54巻. [38]",
+    "metadata": [
+        {
+            "label": "Persistent ID",
+            "value": "info:ndljp/pid/3010909"
+        },
+        {
+            "label": "Title",
+            "value": "[源氏物語] 54巻. [38]"
+        },
+        {
+            "label": "Creator",
+            "value": "[紫式部] [著]"
+        },
+        {
+            "label": "Publication Date",
+            "value": "元和9 [1623]"
+        },
+        {
+            "label": "Publication Date (W3CDTF fortmat)",
+            "value": "1623"
+        },
+        {
+            "label": "Call Number",
+            "value": "WA7-275"
+        },
+        {
+            "label": "Bibliographic ID",
+            "value": "000009849984"
+        },
+        {
+            "label": "Access Restrictions",
+            "value": "インターネット公開（保護期間満了）"
+        },
+        {
+            "label": "URL",
+            "value": "https://dl.ndl.go.jp/info:ndljp/pid/3010909"
+        }
+    ],
+    "viewingDirection": "right-to-left",
+    "license": "https://dl.ndl.go.jp/ja/iiif_license.html",
+    "attribution": "国立国会図書館 National Diet Library, JAPAN",
+    "logo": "https://dl.ndl.go.jp/resources/images/dlicon.png",
+    "seeAlso": "https://dl.ndl.go.jp/api/oaipmh?verb=GetRecord&metadataPrefix=dcndl_porta&identifier=oai:dl.ndl.go.jp:info:ndljp/pid/3010909",
+    "sequences": [
+        {
+            "@type": "sc:Sequence",
+            "viewingHint": "individuals",
+            "thumbnail": {
+                "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/T0000001/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg"
+            },
+            "canvases": [
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/1",
+                    "@type": "sc:Canvas",
+                    "label": "1",
+                    "width": 7344,
+                    "height": 5932,
+                    "thumbnail": {
+                        "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/F0000001/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg"
+                    },
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/1",
+                            "resource": {
+                                "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000001/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 7344,
+                                "height": 5932,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000001",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/2",
+                    "@type": "sc:Canvas",
+                    "label": "2",
+                    "width": 7344,
+                    "height": 5932,
+                    "thumbnail": {
+                        "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/F0000002/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg"
+                    },
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/2",
+                            "resource": {
+                                "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000002/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 7344,
+                                "height": 5932,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000002",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/3",
+                    "@type": "sc:Canvas",
+                    "label": "3",
+                    "width": 7344,
+                    "height": 5932,
+                    "thumbnail": {
+                        "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/F0000003/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg"
+                    },
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/3",
+                            "resource": {
+                                "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000003/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 7344,
+                                "height": 5932,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000003",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/4",
+                    "@type": "sc:Canvas",
+                    "label": "4",
+                    "width": 7344,
+                    "height": 5932,
+                    "thumbnail": {
+                        "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/F0000004/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg"
+                    },
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/4",
+                            "resource": {
+                                "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000004/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 7344,
+                                "height": 5932,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000004",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/5",
+                    "@type": "sc:Canvas",
+                    "label": "5",
+                    "width": 7344,
+                    "height": 5932,
+                    "thumbnail": {
+                        "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/F0000005/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg"
+                    },
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/5",
+                            "resource": {
+                                "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000005/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 7344,
+                                "height": 5932,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000005",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/6",
+                    "@type": "sc:Canvas",
+                    "label": "6",
+                    "width": 7344,
+                    "height": 5932,
+                    "thumbnail": {
+                        "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/F0000006/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg"
+                    },
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/6",
+                            "resource": {
+                                "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000006/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 7344,
+                                "height": 5932,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000006",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/7",
+                    "@type": "sc:Canvas",
+                    "label": "7",
+                    "width": 7344,
+                    "height": 5932,
+                    "thumbnail": {
+                        "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/F0000007/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg"
+                    },
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/7",
+                            "resource": {
+                                "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000007/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 7344,
+                                "height": 5932,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000007",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/8",
+                    "@type": "sc:Canvas",
+                    "label": "8",
+                    "width": 7344,
+                    "height": 5932,
+                    "thumbnail": {
+                        "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/F0000008/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg"
+                    },
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/8",
+                            "resource": {
+                                "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000008/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 7344,
+                                "height": 5932,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000008",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/9",
+                    "@type": "sc:Canvas",
+                    "label": "9",
+                    "width": 7344,
+                    "height": 5932,
+                    "thumbnail": {
+                        "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/F0000009/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg"
+                    },
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/9",
+                            "resource": {
+                                "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000009/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 7344,
+                                "height": 5932,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000009",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/10",
+                    "@type": "sc:Canvas",
+                    "label": "10",
+                    "width": 7344,
+                    "height": 5932,
+                    "thumbnail": {
+                        "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/F0000010/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg"
+                    },
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/10",
+                            "resource": {
+                                "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000010/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 7344,
+                                "height": 5932,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000010",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/11",
+                    "@type": "sc:Canvas",
+                    "label": "11",
+                    "width": 7344,
+                    "height": 5932,
+                    "thumbnail": {
+                        "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/F0000011/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg"
+                    },
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/11",
+                            "resource": {
+                                "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000011/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 7344,
+                                "height": 5932,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000011",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/12",
+                    "@type": "sc:Canvas",
+                    "label": "12",
+                    "width": 7344,
+                    "height": 5932,
+                    "thumbnail": {
+                        "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/F0000012/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg"
+                    },
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/12",
+                            "resource": {
+                                "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000012/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 7344,
+                                "height": 5932,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000012",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/13",
+                    "@type": "sc:Canvas",
+                    "label": "13",
+                    "width": 7344,
+                    "height": 5932,
+                    "thumbnail": {
+                        "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/F0000013/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg"
+                    },
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/13",
+                            "resource": {
+                                "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000013/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 7344,
+                                "height": 5932,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000013",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/14",
+                    "@type": "sc:Canvas",
+                    "label": "14",
+                    "width": 7344,
+                    "height": 5932,
+                    "thumbnail": {
+                        "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/F0000014/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg"
+                    },
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/14",
+                            "resource": {
+                                "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000014/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 7344,
+                                "height": 5932,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000014",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/15",
+                    "@type": "sc:Canvas",
+                    "label": "15",
+                    "width": 7344,
+                    "height": 5932,
+                    "thumbnail": {
+                        "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/F0000015/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg"
+                    },
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/15",
+                            "resource": {
+                                "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000015/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 7344,
+                                "height": 5932,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000015",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/16",
+                    "@type": "sc:Canvas",
+                    "label": "16",
+                    "width": 7344,
+                    "height": 5932,
+                    "thumbnail": {
+                        "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/F0000016/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg"
+                    },
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/16",
+                            "resource": {
+                                "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000016/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 7344,
+                                "height": 5932,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000016",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/17",
+                    "@type": "sc:Canvas",
+                    "label": "17",
+                    "width": 7344,
+                    "height": 5932,
+                    "thumbnail": {
+                        "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/F0000017/full/full/0/default.jpg",
+                        "@type": "dctypes:Image",
+                        "format": "image/jpeg"
+                    },
+                    "images": [
+                        {
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://www.dl.ndl.go.jp/api/iiif/3010909/canvas/17",
+                            "resource": {
+                                "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000017/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 7344,
+                                "height": 5932,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://www.dl.ndl.go.jp/api/iiif/3010909/R0000017",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+import sys
+sys.path.append('../500_common')
+import lib
+import lib_ss
+
+# images = lib.get_images("../500_common/data/result.html")
+
+soup = lib_ss.main("/Users/nakamurasatoru/git/d_genji/genji_curation/src/500_common/Chrome32", "Profile 3")
+
+images = lib.get_images_by_soup(soup)
+
+collectionUrl = "https://utda.github.io/genji/iiif/ndl-8943312/top.json"
+areas = ["4000,600,3000,4300", "950,600,3000,4300"]
+countMax = 50
+
+# token = lib.get_token("../token.yml")
+
+token = "eyJhbGciOiJSUzI1NiIsImtpZCI6IjA4MGU0NWJlNGIzMTE4MzA5M2RhNzUyYmIyZGU5Y2RjYTNlNmU4ZTciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoi5Lit5p2R6KaaIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS8tWHQ1NENUT1pEdVEvQUFBQUFBQUFBQUkvQUFBQUFBQUFBQUEvQUFLV0pKTjg3RWs3MVZqeTZyWTNpeTh6bmFFR0FqeFlpdy9waG90by5qcGciLCJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY29kaC04MTA0MSIsImF1ZCI6ImNvZGgtODEwNDEiLCJhdXRoX3RpbWUiOjE2MDkyNTYxMjMsInVzZXJfaWQiOiJvZ2Z0UkpaeGxDZzZIRDZMelNPWGZ4ZlBXYUEzIiwic3ViIjoib2dmdFJKWnhsQ2c2SEQ2THpTT1hmeGZQV2FBMyIsImlhdCI6MTYwOTI4NzIxNiwiZXhwIjoxNjA5MjkwODE2LCJlbWFpbCI6InNhLnRvcnUuYTQxNjIzQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7Imdvb2dsZS5jb20iOlsiMTA0ODEzNDEzMzM0OTI0ODM4NDQzIl0sImVtYWlsIjpbInNhLnRvcnUuYTQxNjIzQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.YlP_3R2qZ3vuk2MgDpqlRkufi5erXuXOgJJKkGGuGg9gERuGloK0R3WG_QB1bZ2Svh1854d0Ch-qkquexs20tCvdtY4en9Um85nuVIlXklgp7dmFGVvuy8idAkX5DhYKY_JfygKYYBPaf9jvRNW7scAZEI80kq5-tW-Ubu6Theqlv0Pm3AOWAj_4DS7ZvUbQTCn_T0H5bu0am8drzPudptZ9XhMRhcscrZ5TtiCErBzlsi0zVnE_hJ2HdbkkyzyD6na0-DjMe6voKwRHIHzxDnu0qWfVX3T5d2HMcKH9DukBaUONODk5ZMehR38DZAww_yYaA6lSXJuU9_2Z4dI9ag"
+
+lib.post(collectionUrl, areas, countMax, token, images, "Collection")

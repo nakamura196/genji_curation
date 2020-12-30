@@ -1,0 +1,2387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>
+     源氏物語・藤袴・与謝野晶子訳
+    </title>
+    <author>
+     紫式部
+    </author>
+    <respStmt>
+     <orgName ref="http://www.aozora.gr.jp/">
+      青空文庫
+     </orgName>
+     <resp when="2003-09-10">
+      作成
+     </resp>
+     <resp/>
+     <note>
+      <lb/>
+      底本：「全訳源氏物語　中巻」角川文庫、角川書店
+      <lb/>
+      1971（昭和46）年11月30日改版初版発行
+      <lb/>
+      1994（平成6）年6月15日39版発行
+      <lb/>
+      ※このファイルは、古典総合研究所（http://www.genji.co.jp/）で入力されたものを、青空文庫形式にあらためて作成しました。
+      <lb/>
+      ※校正には2002（平成14）年1月15日44版発行を使用しました。
+      <lb/>
+      入力：上田英代
+      <lb/>
+      校正：伊藤時也
+      <lb/>
+      <date when="2003-09-10">
+       2003年9月10日
+      </date>
+      作成
+      <lb/>
+      青空文庫作成ファイル：
+      <lb/>
+      このファイルは、インターネットの図書館、青空文庫（http://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。
+     </note>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Aozora Transcription
+     </resp>
+     <name>
+      上田英代
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>
+      Aozora Proofreading
+     </resp>
+     <name>
+      伊藤時也
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp when="2019-01-01">
+      TEI Encoding
+     </resp>
+     <name>
+      Satoru Nakamura
+     </name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <distributor>
+     SIG for East Asian/ Japanese, TEI Consortium
+    </distributor>
+    <availability>
+     <p>
+      <ref target="https://creativecommons.org/publicdomain/zero/1.0/">
+       CC0 1.0 Universal (CC0
+              1.0) Public Domain Dedication
+      </ref>
+     </p>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl>
+     Input by your self
+     <title>
+      源氏物語
+     </title>
+     <author>
+      紫式部
+     </author>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <p>
+    <lb>
+    </lb>
+    <lb>
+    </lb>
+    <lb>
+    </lb>
+    <seg rend="chitsuki_3" rendition="div" style="text-align:right; ">
+     <s xml:id="YG3000000100">
+      むらさきのふぢばかまをば見よといふ
+     </s>
+    </seg>
+    <seg rend="chitsuki_3" rendition="div" style="text-align:right; ">
+     <s xml:id="YG3000000200">
+      二人泣きたきここち覚えて　（晶子）
+     </s>
+    </seg>
+    <s xml:id="YG3000000300">
+     <lb>
+     </lb>
+     <seg type="ruby">
+      <seg type="rb">
+       尚侍
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ないしのかみ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     になって御所へお勤めするようにと、源氏はもとより実父の内大臣のほうからも勧めてくることで
+     <seg type="ruby">
+      <seg type="rb">
+       玉鬘
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       たまかずら
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     は
+     <seg type="ruby">
+      <seg type="rb">
+       煩悶
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       はんもん
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     をしていた。
+    </s>
+    <s xml:id="YG3000000400">
+     それがいいことなのであろうか、養父のはずである源氏さえも絶対の信頼はできぬ男性の好色癖をややもすれば見せて自分に臨むのであるから、お仕えする君との間に、こちらは受動的にもせよ情人関係ができた時は、
+     <seg type="ruby">
+      <seg type="rb">
+       中宮
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ちゅうぐう
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     も
+     <seg type="ruby">
+      <seg type="rb">
+       女御
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       にょご
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     も不快に思われるに違いない、そして自分は両家のどちらにも薄弱な根底しかない娘である。
+    </s>
+    <s xml:id="YG3000000500">
+     中宮や女御における後援は期して得られるものでない上に、自分の幸運げな外見をうらやんで何か悪口をする機会がないかとうかがっている人を多く持っていてはその時の苦しさが想像されると、若いといってももう少女でない玉鬘は思って苦しんでいるのである。
+    </s>
+    <s xml:id="YG3000000600">
+     そうかといって今のままで境遇を変えずにいることはいやなことではないが、源氏の恋から離れて、世間の
+     <seg type="ruby">
+      <seg type="rb">
+       臆測
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       おくそく
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     したことが真実でなかったと人に知らせる機会というものの得られないのは苦しい。
+    </s>
+    <s xml:id="YG3000000700">
+     実父も源氏の感情をはばかって、親として乗り出して世話をしてくれるようなことはないと見なければならない。
+    </s>
+    <s xml:id="YG3000000800">
+     <seg type="ruby">
+      <seg type="rb">
+       曖昧
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       あいまい
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     な立場にいて自身は苦労をし、人からは
+     <seg type="ruby">
+      <seg type="rb">
+       嫉妬
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       しっと
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     をされなければならない自分であるらしいと玉鬘は
+     <seg type="ruby">
+      <seg type="rb">
+       歎
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       なげ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     かれるのであった。
+    </s>
+    <s xml:id="YG3000000900">
+     実父に引き合わせてからはもう源氏は道徳的にはばからねばならぬことから解放されたように、戯れかかることの多くなったことも玉鬘を
+     <seg type="ruby">
+      <seg type="rb">
+       憂鬱
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ゆううつ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     にした。
+    </s>
+    <s xml:id="YG3000001000">
+     自分の心持ちをにおわしてだけでも言うことのできる母というものを玉鬘は持っていなかった。
+    </s>
+    <s xml:id="YG3000001100">
+     東の夫人にせよ、南の夫人にせよ、娘らしく、また母らしくはして交わってくれるが、どうしてそんな貴婦人に内密の相談などが持ちかけられようと思うと、だれよりも哀れなのは自分の身の上であるような気がして、夕方の空の身にしむ色を、縁に近い座敷からながめて物思いをしているのであったが、その様子はきわめて美しかった。
+    </s>
+    <s xml:id="YG3000001200">
+     <seg type="ruby">
+      <seg type="rb">
+       淡鈍
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       うすにび
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     色の喪服を玉鬘は祖母の宮のために着ていた。
+    </s>
+    <s xml:id="YG3000001300">
+     そのために顔がいっそうはなやかに引き立って見えるのを、女房たちは楽しんでながめている所へ、源宰相の中将が、これも
+     <seg type="ruby">
+      <seg type="rb">
+       鈍
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       にび
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     色の今少し濃い目な
+     <seg type="ruby">
+      <seg type="rb">
+       直衣
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       のうし
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     を着て、冠を
+     <seg type="ruby">
+      <seg type="rb">
+       巻纓
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       まきえい
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     にしているのが平生よりも
+     <seg type="ruby">
+      <seg type="rb">
+       艶
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       えん
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     に思われる姿で
+     <seg type="ruby">
+      <seg type="rb">
+       訪
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       たず
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     ねて来た。
+    </s>
+    <s xml:id="YG3000001400">
+     最初のころから好意を表してくれる人であったから、玉鬘のほうでも親しく取り扱った習慣から、今になっても兄弟ではないというような態度をとることはよろしくないと思って、
+     <seg type="ruby">
+      <seg type="rb">
+       御簾
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       みす
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     に
+     <seg type="ruby">
+      <seg type="rb">
+       几帳
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       きちょう
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     を添えただけの隔てで、話は取り次ぎなしでした。
+    </s>
+    <s xml:id="YG3000001500">
+     今日は源氏の用で来たのである。
+    </s>
+    <s xml:id="YG3000001600">
+     宮中からあった仰せを源氏は子息によって伝えさせたのである。
+    </s>
+    <s xml:id="YG3000001700">
+     おおようではあるが要領を得た返辞をする様子に、中将は
+     <seg type="ruby">
+      <seg type="rb">
+       貴女
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       きじょ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     と話し合う快感が覚えられた。
+    </s>
+    <s xml:id="YG3000001800">
+     <seg type="ruby">
+      <seg type="rb">
+       野分
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       のわき
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の朝にのぞいた顔の美しさの忘られないのを、その人は姉ではないかと恋しくなる心を責めていた中将であったが、そうした
+     <seg type="ruby">
+      <seg type="rb">
+       障
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       さわ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     りの除かれた今は恋人としてこの人を中将は考えていた。
+    </s>
+    <s xml:id="YG3000001900">
+     尚侍の職をお勤めさせになるだけで
+     <seg type="ruby">
+      <seg type="rb">
+       帝
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       みかど
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     は御満足をあそばすまい、この世で第一の
+     <seg type="ruby">
+      <seg type="rb">
+       美貌
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       びぼう
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     をお持ちになる帝との間に恋愛関係は必ずできてくることであろうと思うと、中将は胸を何かでおさえつけられる気もするのであったが自制していた。
+    </s>
+    <s xml:id="YG3000002000">
+     <lb>
+     </lb>
+     「人に聞かせぬようにと父が申されましたことを申し上げようと思いますが、よろしいのでしょうか」
+     <lb>
+     </lb>
+     と意味ありげに言っているのを聞いて、女房たちは少し離れた場所を捜して、几帳の後ろのほうなどへ皆行ってしまった。
+    </s>
+    <s xml:id="YG3000002100">
+     中将は源氏の言ったのでもない言葉を、真実らしくいろいろと伝えていた。
+    </s>
+    <s xml:id="YG3000002200">
+     帝が尚侍にお召しになる御真意は別にあるらしいから、きれいに身を
+     <seg type="ruby">
+      <seg type="rb">
+       護
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       まも
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     ろうとすれば始終その心得がなくてはならないというような話である。
+    </s>
+    <s xml:id="YG3000002300">
+     返辞のできることでもなくて、
+     <seg type="ruby">
+      <seg type="rb">
+       玉鬘
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       たまかずら
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     がただ
+     <seg type="ruby">
+      <seg type="rb">
+       吐息
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       といき
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     をついているのが美しく感ぜられた時に、中将の心にはおさえ切れないものが
+     <seg type="ruby">
+      <seg type="rb">
+       湧
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       わ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     き上がってきた。
+    </s>
+    <s xml:id="YG3000002400">
+     <lb>
+     </lb>
+     「私たちの喪服はこの月で
+     <seg type="ruby">
+      <seg type="rb">
+       脱
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ぬ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     ぐはずですが、暦で調べますと月末はいい日でありませんから延びることになりますね。
+    </s>
+    <s xml:id="YG3000002500">
+     十三日に加茂の河原へ
+     <seg type="ruby">
+      <seg type="rb">
+       除服
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       じょふく
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の
+     <seg type="ruby">
+      <seg type="rb">
+       御祓
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       みそぎ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     にあなたがおいでになるように父は決めていられるようです。
+    </s>
+    <s xml:id="YG3000002600">
+     私もごいっしょに参ろうと思っています」
+     <lb>
+     </lb>
+     「ごいっしょでは目だつことになるでしょう。
+    </s>
+    <s xml:id="YG3000002700">
+     だれにもあまり知られないようにして行くほうがいいかと思います」
+     <lb>
+     </lb>
+     と玉鬘は言っていた。
+    </s>
+    <s xml:id="YG3000002800">
+     内大臣の娘として大宮の喪に服したことなどは世間へ知らせぬようにせねばならぬと考えるところにこの人の
+     <seg type="ruby">
+      <seg type="rb">
+       聡明
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       そうめい
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     と源氏への思いやりが現われていた。
+    </s>
+    <s xml:id="YG3000002900">
+     <lb>
+     </lb>
+     「隠したくお思いになることが私には恨めしい気もいたしますよ。
+    </s>
+    <s xml:id="YG3000003000">
+     悲しい祖母のかたみのような喪服ですから、私は脱いでしまうのも惜しく思われるのです。
+    </s>
+    <s xml:id="YG3000003100">
+     それにしましてもやはりあなたと私とは一人の方を祖母に持っているのですから不思議な気がいたしますね。
+    </s>
+    <s xml:id="YG3000003200">
+     喪服をお着になることがありませんでしたら、真実のことを私は知らずじまいになったのかもしれません」
+     <lb>
+     </lb>
+     「私などにはましてよくわかりませんが、とにかく喪服を着ております気持ちは身にしむものですね」
+     <lb>
+     </lb>
+     こう言う玉鬘の平生よりもしんみりとした調子が中将にうれしかった。
+    </s>
+    <s xml:id="YG3000003300">
+     この時にと思ったのか、手に持っていた
+     <seg type="ruby">
+      <seg type="rb">
+       蘭
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ふじばかま
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     のきれいな花を
+     <seg type="ruby">
+      <seg type="rb">
+       御簾
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       みす
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の下から中へ入れて、
+     <lb>
+     </lb>
+     「この花も今の私たちにふさわしい花ですから」
+     <lb>
+     </lb>
+     と言って、玉鬘が受け取るまで放さずにいたので、やむをえず手を出して取ろうとする
+     <seg type="ruby">
+      <seg type="rb">
+       袖
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       そで
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     を中将は引いた。
+    </s>
+    <lb>
+    </lb>
+    <lb>
+    </lb>
+    <seg rend="jisage_1" rendition="div" style="margin-left: 1em">
+     <s xml:id="YG3000003400">
+      「おなじ野の露にやつるる
+      <seg type="ruby">
+       <seg type="rb">
+        藤袴
+       </seg>
+       <seg type="rp">
+        （
+       </seg>
+       <seg type="rt">
+        ふぢばかま
+       </seg>
+       <seg type="rp">
+        ）
+       </seg>
+      </seg>
+      哀れはかけよかごとばかりも
+      <lb>
+      </lb>
+     </s>
+    </seg>
+    <s xml:id="YG3000003500">
+     <lb>
+     </lb>
+     道のはてなる（
+     <seg type="ruby">
+      <seg type="rb">
+       東路
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       あづまぢ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の道のはてなる
+     <seg type="ruby">
+      <seg type="rb">
+       常陸帯
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ひたちおび
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     のかごとばかりも逢はんとぞ思ふ）」
+     <lb>
+     </lb>
+     こんなことが言いかけられたのであった。
+    </s>
+    <s xml:id="YG3000003600">
+     玉鬘にとっては思いがけぬことに当惑を感じながらも、気づかないふうをして、少しずつ身を後ろへ引いて行った。
+    </s>
+    <lb>
+    </lb>
+    <lb>
+    </lb>
+    <seg rend="jisage_1" rendition="div" style="margin-left: 1em">
+     <s xml:id="YG3000003700">
+      「たづぬるに
+      <seg type="ruby">
+       <seg type="rb">
+        遥
+       </seg>
+       <seg type="rp">
+        （
+       </seg>
+       <seg type="rt">
+        はる
+       </seg>
+       <seg type="rp">
+        ）
+       </seg>
+      </seg>
+      けき
+      <seg type="ruby">
+       <seg type="rb">
+        野辺
+       </seg>
+       <seg type="rp">
+        （
+       </seg>
+       <seg type="rt">
+        のべ
+       </seg>
+       <seg type="rp">
+        ）
+       </seg>
+      </seg>
+      の露ならばうす紫やかごとならまし
+      <lb>
+      </lb>
+     </s>
+    </seg>
+    <s xml:id="YG3000003800">
+     <lb>
+     </lb>
+     <seg type="ruby">
+      <seg type="rb">
+       従姉
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       いとこ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     ということは事実だからいいでしょう。
+    </s>
+    <s xml:id="YG3000003900">
+     そのほかのことは何も」
+     <lb>
+     </lb>
+     と言うと、中将は少し笑って、
+     <lb>
+     </lb>
+     「その事実のほかに考えてくださらなければならないこともおわかりになるはずですがね。
+    </s>
+    <s xml:id="YG3000004000">
+     常識ではもったいないことだと思っているのですが、この感情はおさえられるものでないのですからお察しください。
+    </s>
+    <s xml:id="YG3000004100">
+     こんなことを告白してはかえってお憎みを受けることになろうと思って今までは黙っていたのですが、ただ哀れだと思っていただくだけのことで満足したい心にもなっているのです。
+    </s>
+    <s xml:id="YG3000004200">
+     <seg type="ruby">
+      <seg type="rb">
+       頭
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       とうの
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     中将の近ごろの様子をご存じですか、あのころは明らかに第三者だと思っていた私が、こんなに恋の苦しみを味わうようになるなどということは冷淡にした時の報いです。
+    </s>
+    <s xml:id="YG3000004300">
+     今ではあの人が冷静になってしかもつながる縁のあることに満足しているのですから、うらやましくてなりません。
+    </s>
+    <s xml:id="YG3000004400">
+     かわいそうだとだけでも私をお心にとめておいてください」
+     <lb>
+     </lb>
+     まだいろいろに言ったのであるが、中将のために筆者は遠慮しておく。
+    </s>
+    <s xml:id="YG3000004500">
+     <seg type="ruby">
+      <seg type="rb">
+       玉鬘
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       たまかずら
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     に気味悪く思うふうの見えるのを知って、
+     <lb>
+     </lb>
+     「私を信じてくださらないのですね。
+    </s>
+    <s xml:id="YG3000004600">
+     ばかな
+     <seg type="ruby">
+      <seg type="rb">
+       真似
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       まね
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     などをする人間でないことはおわかりになっているはずですが」
+     <lb>
+     </lb>
+     こう中将は言った。
+    </s>
+    <s xml:id="YG3000004700">
+     この機会にもう少し告げたい感情もあるのであったが、
+     <lb>
+     </lb>
+     「少し気分が悪くなってきましたから」
+     <lb>
+     </lb>
+     と言って、玉鬘が向こうへはいってしまったのを見て、深く中将は
+     <seg type="ruby">
+      <seg type="rb">
+       歎息
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       たんそく
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     しながら去った。
+    </s>
+    <s xml:id="YG3000004800">
+     <lb>
+     </lb>
+     よけいな告白をしたと中将は後悔をしたのであったが、この人以上に身に
+     <seg type="ruby">
+      <seg type="rb">
+       沁
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       し
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     んで恋しく思われた紫の
+     <seg type="ruby">
+      <seg type="rb">
+       女王
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       にょおう
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     と、せめてこれほどの接触が許されてほのかな声でも聞きうる機会をどんな時にとらえることができるであろうと、その困難さを思って心を苦しめながら中将は南の町へ来た。
+    </s>
+    <s xml:id="YG3000004900">
+     源氏はすぐ出て来たので、中将は聞いて来た返事をした。
+    </s>
+    <s xml:id="YG3000005000">
+     <lb>
+     </lb>
+     「御所へ上がるのを、やっとしぶしぶ承諾した形なのだから困る。
+    </s>
+    <s xml:id="YG3000005100">
+     <seg type="ruby">
+      <seg type="rb">
+       兵部卿
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ひょうぶきょう
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の宮などが求婚者で、深刻な情熱の盛られたお手紙が送られていて、そのほうへ心が
+     <seg type="ruby">
+      <seg type="rb">
+       惹
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ひ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     かれるのではなかろうかと思うと気の毒な気にもなる。
+    </s>
+    <s xml:id="YG3000005200">
+     しかし大原野の行幸の時にお
+     <seg type="ruby">
+      <seg type="rb">
+       上
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       かみ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     を拝見して、お美しいと思った様子だったのだからね。
+    </s>
+    <s xml:id="YG3000005300">
+     若い女は一目でもお顔を拝見すれば宮仕えのできる者は皆出ないではいられまいと思って、最初に私の計らったことなのだが」
+     <lb>
+     </lb>
+     などと源氏は言う。
+    </s>
+    <s xml:id="YG3000005400">
+     <lb>
+     </lb>
+     「それにしましてもあの方はどんなふうになられるのがいちばん適したことでしょう。
+    </s>
+    <s xml:id="YG3000005500">
+     御所には
+     <seg type="ruby">
+      <seg type="rb">
+       中宮
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ちゅうぐう
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     が特殊な尊貴な存在でいらっしゃいますし、また
+     <seg type="ruby">
+      <seg type="rb">
+       弘徽殿
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       こきでん
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の
+     <seg type="ruby">
+      <seg type="rb">
+       女御
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       にょご
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     という
+     <seg type="ruby">
+      <seg type="rb">
+       寵姫
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ちょうき
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     もおありになるのですから、どんなにお気に入りましてもそのお二方並みにはなれないことでしょう。
+    </s>
+    <s xml:id="YG3000005600">
+     兵部卿の宮は熱烈に御結婚を望んでおいでになるのですから、表面は後宮の人ではありませんでも、
+     <seg type="ruby">
+      <seg type="rb">
+       尚侍
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ないしのかみ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     などにお出しになることによって、これまでの親密な御交情がそこなわれはしないかと私は思いますが」
+     <lb>
+     </lb>
+     中将は老成な口調で意見を述べた。
+    </s>
+    <s xml:id="YG3000005700">
+     <lb>
+     </lb>
+     「むずかしいことだね。
+    </s>
+    <s xml:id="YG3000005800">
+     私だけの意志でどう決めることもできない人のことではないか。
+    </s>
+    <s xml:id="YG3000005900">
+     それだのに右大将なども私を恨みの
+     <seg type="ruby">
+      <seg type="rb">
+       標的
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       まと
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     にしているそうだ。
+    </s>
+    <s xml:id="YG3000006000">
+     一人の求婚者に同情して与えてしまえばほかの人は皆失恋することになるのだから、うかと縁談が決められないのだよ。
+    </s>
+    <s xml:id="YG3000006100">
+     あの人を生んだ母親が哀れな遺言をしておいたのでね、郊外であの人が心細く暮らしているということを聞いて、内大臣も子と認めようとするふうは見えないと悲観しているようだったから、最初私の子として引き取ることにしたのだよ。
+    </s>
+    <s xml:id="YG3000006200">
+     私が大事がるのでやっと大臣も価値を認めてきたのだ」
+     <lb>
+     </lb>
+     源氏は真実らしくこう言っていた。
+    </s>
+    <s xml:id="YG3000006300">
+     <lb>
+     </lb>
+     「人物は宮の夫人であることに最も適していると思う。
+    </s>
+    <s xml:id="YG3000006400">
+     近代的で、
+     <seg type="ruby">
+      <seg type="rb">
+       艶
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       えん
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     な容姿を持っていて、しかも
+     <seg type="ruby">
+      <seg type="rb">
+       聡明
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       そうめい
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     で、過失などはしそうでない女性だから、いい宮の夫人だと思う。
+    </s>
+    <s xml:id="YG3000006500">
+     そしてまた尚侍の適任者でもあるのだよ。
+    </s>
+    <s xml:id="YG3000006600">
+     <seg type="ruby">
+      <seg type="rb">
+       美貌
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       びぼう
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     で、
+     <seg type="ruby">
+      <seg type="rb">
+       貴女
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       きじょ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     らしい貴女で、職責も十分に果たしうるような人物というお上の御註文どおりなのはあの人だと思う」
+     <lb>
+     </lb>
+     とも言った。
+    </s>
+    <s xml:id="YG3000006700">
+     中将は源氏自身の胸中の秘事も探りたくなった。
+    </s>
+    <s xml:id="YG3000006800">
+     <lb>
+     </lb>
+     「今日まで実父に隠してお手もとへお置きになったことで、いろいろな
+     <seg type="ruby">
+      <seg type="rb">
+       忖度
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       そんたく
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     を世間はしております。
+    </s>
+    <s xml:id="YG3000006900">
+     内大臣もそんな意味を含んだことを、右大将からあちらへの申し込みに答えて言ったそうです」
+     <lb>
+     </lb>
+     と中将が言うと、源氏は笑いながら、
+     <lb>
+     </lb>
+     「それは思いやりのありすぎる迷惑な話だね。
+    </s>
+    <s xml:id="YG3000007000">
+     宮仕えだって何だって内大臣の意志を尊重して、私はできる世話だけをする気なのだがね。
+    </s>
+    <s xml:id="YG3000007100">
+     女の三従の道は親に従うのがまず第一なのだからね。
+    </s>
+    <s xml:id="YG3000007200">
+     その美風を破るようなことはとんでもないことだ」
+     <lb>
+     </lb>
+     と言った。
+    </s>
+    <s xml:id="YG3000007300">
+     <lb>
+     </lb>
+     「こちらには以前からりっぱな夫人がたがおいでになって、新しくその数へお入れになることができないため、世間体だけを官職におつけになることにして、やはりいつまでも愛人でお置きになることのできるようなお計らいは、賢明な処置だといって、大臣が喜ばれたということを、確かな人から私は聞きました」
+     <lb>
+     </lb>
+     中将が真正面からこう言うのを聞いて、源氏は内大臣としてはそうも想像するであろうと気の毒に思った。
+    </s>
+    <s xml:id="YG3000007400">
+     <lb>
+     </lb>
+     「曲がった解釈をされているものだね。
+    </s>
+    <s xml:id="YG3000007500">
+     それが賢明な人の観察というものかもしれない。
+    </s>
+    <s xml:id="YG3000007600">
+     もうすぐに事実が万事を明らかにするだろう。
+    </s>
+    <s xml:id="YG3000007700">
+     しかし、どうなるにしても余りにひどい想像だ」
+     <lb>
+     </lb>
+     と源氏は笑っていた。
+    </s>
+    <s xml:id="YG3000007800">
+     あざやかな弁解をしたつもりであろうが、まだ疑いは十分に残してよいことであると中将は思っていた。
+    </s>
+    <s xml:id="YG3000007900">
+     源氏も心の中で、こう人の
+     <seg type="ruby">
+      <seg type="rb">
+       噂
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       うわさ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     する筋書きどおりのあやまった道は踏むまいとみずから
+     <seg type="ruby">
+      <seg type="rb">
+       警
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       いまし
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     めた。
+    </s>
+    <s xml:id="YG3000008000">
+     このきれいな気持ちを大臣にも徹底的に知らせたいと源氏は思ったが、
+     <seg type="ruby">
+      <seg type="rb">
+       玉鬘
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       たまかずら
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     を官職につけておいて情人関係を永久に失うまいとすることなどを、どうして大臣に観測されたのであろうと薄気味悪くさえなった。
+    </s>
+    <s xml:id="YG3000008100">
+     <lb>
+     </lb>
+     玉鬘は
+     <seg type="ruby">
+      <seg type="rb">
+       除服
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       じょふく
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     したが、翌月の九月は女の宮中へはいることに忌む月でもあったから、十月になってから出仕することに源氏が決めたのを、お聞きになって
+     <seg type="ruby">
+      <seg type="rb">
+       帝
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       みかど
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     は待ち遠しく
+     <seg type="ruby">
+      <seg type="rb">
+       思召
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       おぼしめ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     した。
+    </s>
+    <s xml:id="YG3000008200">
+     求婚者は皆尚侍に決定したことを聞いて残念がった。
+    </s>
+    <s xml:id="YG3000008300">
+     それまでに縁組みを決めて、御所へはいるのを阻止したいと皆あせって、仲介者になっている女房たちを責めるのであるが、尚侍の出仕を阻止するようなことは、
+     <seg type="ruby">
+      <seg type="rb">
+       吉野
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       よしの
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の滝をふさぎ止めるよりもなお不可能なことであるとそれらの女たちは言っていた。
+    </s>
+    <s xml:id="YG3000008400">
+     源中将はしないでよい告白をしたことで感情を害しなかったかと不安で、この苦しみを紛らわすために一所懸命に尚侍の出仕についての用などに奔走して好意を見せることにつとめていた。
+    </s>
+    <s xml:id="YG3000008500">
+     もうあれ以来軽率に感情を告げたりすることもなく慎んでいるのである。
+    </s>
+    <s xml:id="YG3000008600">
+     兄弟である内大臣の子息たちはまだ遠慮が多くて出入りをようしないのである。
+    </s>
+    <s xml:id="YG3000008700">
+     御所で尚侍の後援をするためにはもっと親しくなっておかないでは都合が悪いのにと、その人たちは不安に思っていた。
+    </s>
+    <s xml:id="YG3000008800">
+     <seg type="ruby">
+      <seg type="rb">
+       頭
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       とう
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の中将は恋の
+     <seg type="ruby">
+      <seg type="rb">
+       奴
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       やっこ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     になって幾通となく手紙を送ってきたようなこともなくなったのを正直だといって女房たちはおかしがっていたのであるが、父の大臣の使いになって
+     <seg type="ruby">
+      <seg type="rb">
+       訪
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       たず
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     ねて来た。
+    </s>
+    <s xml:id="YG3000008900">
+     まだ公然に親であり娘であるという
+     <seg type="ruby">
+      <seg type="rb">
+       往来
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ゆきき
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     ははばかって、そっと手紙を送って、そっと返事を
+     <seg type="ruby">
+      <seg type="rb">
+       玉鬘
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       たまかずら
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     が出すほどにしかしていないのであったから、こうした月明の晩に隠れて頭の中将も訪ねて来たのである。
+    </s>
+    <s xml:id="YG3000009000">
+     以前はだれからも訪問者として取り扱おうとされなかった中将が、今夜は南の縁側に座を設けて招ぜられた。
+    </s>
+    <s xml:id="YG3000009100">
+     玉鬘は自身で出て話をすることはまだ恥ずかしくてできずに、返辞だけは宰相の君を取り次ぎにしてした。
+    </s>
+    <s xml:id="YG3000009200">
+     <lb>
+     </lb>
+     「私が使いに選ばれて来ましたのは、お取り次ぎなしにお話を申すようにという父の考えだったかと思いますが、こんなふうな遠々しいお扱いでは、それを申し上げられない気がいたします。
+    </s>
+    <s xml:id="YG3000009300">
+     私はつまらぬ者ですが、あなたとは離しようもなくつながった縁のありますことで、自信に似たものができております」
+     <lb>
+     </lb>
+     と言って、中将はもう一段親しくしたい様子を見せた。
+    </s>
+    <s xml:id="YG3000009400">
+     <lb>
+     </lb>
+     「ごもっともでございます。
+    </s>
+    <s xml:id="YG3000009500">
+     長い間失礼しておりましたお
+     <seg type="ruby">
+      <seg type="rb">
+       詫
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       わ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     びも直接申し上げたいのでございますが、
+     <seg type="ruby">
+      <seg type="rb">
+       身体
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       からだ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     が何ということなしに悪うございまして、起き上がりますのも大儀でできませんものですから、こうさせていただいているのでございます。
+    </s>
+    <s xml:id="YG3000009600">
+     ただ今のようなお恨みを承りますのは、かえって他人らしいことだと存じます」
+     <lb>
+     </lb>
+     まじめな
+     <seg type="ruby">
+      <seg type="rb">
+       挨拶
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       あいさつ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     を玉鬘はした。
+    </s>
+    <s xml:id="YG3000009700">
+     <lb>
+     </lb>
+     「御気分が悪くてお
+     <seg type="ruby">
+      <seg type="rb">
+       寝
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       やす
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     みになっていらっしゃる所の
+     <seg type="ruby">
+      <seg type="rb">
+       几帳
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       きちょう
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の前へ通していただけませんか。
+    </s>
+    <s xml:id="YG3000009800">
+     しかし、よろしゅうございます、しいていろんなお願いをするのも失礼ですから」
+     <lb>
+     </lb>
+     と言って頭の中将は大臣の言葉を静かに伝えるのであった。
+    </s>
+    <s xml:id="YG3000009900">
+     身の取りなしも様子も源中将に匹敵するもので、感じのいい人である。
+    </s>
+    <s xml:id="YG3000010000">
+     <lb>
+     </lb>
+     「御所へおいでになることでは、くわしいお
+     <seg type="ruby">
+      <seg type="rb">
+       報
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       し
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     らせもまだいただいていませんが、あなたからその際にはこうしてほしい、何が入り用であるとかいうことを言ってくだすったら、そのとおりにしたいと思っています。
+    </s>
+    <s xml:id="YG3000010100">
+     世間の目にたつことが遠慮されて
+     <seg type="ruby">
+      <seg type="rb">
+       訪
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       たず
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     ねて行くこともできず、思うことを直接お話しできないのを遺憾に思っています」
+     <lb>
+     </lb>
+     というのが父の大臣から玉鬘へ伝えさせた言葉であった。
+    </s>
+    <s xml:id="YG3000010200">
+     <lb>
+     </lb>
+     「私が過去に申し上げたことについては、それほど訂正しないでもいいと思います。
+    </s>
+    <s xml:id="YG3000010300">
+     どちらにもせよ愛していただけばいいのです。
+    </s>
+    <s xml:id="YG3000010400">
+     そう思いますとまた恨めしい気にもなります。
+    </s>
+    <s xml:id="YG3000010500">
+     今夜の御待遇などからそう思うのです。
+    </s>
+    <s xml:id="YG3000010600">
+     北側のお
+     <seg type="ruby">
+      <seg type="rb">
+       部屋
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       へや
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     へお入れになって、いい女房がたは失礼だとお思いになるでしょうが、下仕え級の方とでも話して行くようなことがしたいのです。
+    </s>
+    <s xml:id="YG3000010700">
+     兄弟をこんなふうにお扱いになるようなことは、これも不思議なことといわなければなりませんよ」
+     <lb>
+     </lb>
+     批難するふうに言っているのもおかしくて、宰相の君に玉鬘は言わせた。
+    </s>
+    <s xml:id="YG3000010800">
+     <lb>
+     </lb>
+     「人聞きが遠慮いたされまして、あまりにわかな変わり方は見せられないように思うものですから、お話し申し上げたい長い年月のことも、聞いていただけませんことで、私もお言葉のように残念でならないのでございます」
+     <lb>
+     </lb>
+     ときまじめな
+     <seg type="ruby">
+      <seg type="rb">
+       挨拶
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       あいさつ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     をされ、頭の中将はきまりが悪くなって、この上のことは言わないことにした。
+    </s>
+    <lb>
+    </lb>
+    <lb>
+    </lb>
+    <seg rend="jisage_1" rendition="div" style="margin-left: 1em">
+     <s xml:id="YG3000010900">
+      「
+      <seg type="ruby">
+       <seg type="rb">
+        妹背
+       </seg>
+       <seg type="rp">
+        （
+       </seg>
+       <seg type="rt">
+        いもせ
+       </seg>
+       <seg type="rp">
+        ）
+       </seg>
+      </seg>
+      山深き道をば尋ねずてをだえの橋にふみまどひける
+      <lb>
+      </lb>
+     </s>
+    </seg>
+    <s xml:id="YG3000011000">
+     <lb>
+     </lb>
+     そうでしたよ」
+     <lb>
+     </lb>
+     と真底から感じているふうで中将は言った。
+    </s>
+    <lb>
+    </lb>
+    <lb>
+    </lb>
+    <seg rend="jisage_1" rendition="div" style="margin-left: 1em">
+     <s xml:id="YG3000011100">
+      「まどひける道をば知らず妹背山たどたどしくぞたれもふみ見し
+      <lb>
+      </lb>
+     </s>
+    </seg>
+    <s xml:id="YG3000011200">
+     <lb>
+     </lb>
+     と申されます」
+     <lb>
+     </lb>
+     と女主人の歌を伝えてからまた宰相は言う、
+     <lb>
+     </lb>
+     「どのことをお言いになりますことかそのころはおわかりにならなかったようでございます。
+    </s>
+    <s xml:id="YG3000011300">
+     ただあまり御おとなしくて御遠慮ばかりあそばすものですから、どなた様へもお返事をお出しになることがなかったのでございます。
+    </s>
+    <s xml:id="YG3000011400">
+     これからは決してそうでもございませんでしょう」
+     <lb>
+     </lb>
+     もっともなことでもあったから、
+     <lb>
+     </lb>
+     「ではまあよろしいことにしまして、ここで長居をしていましてもつまりません。
+    </s>
+    <s xml:id="YG3000011500">
+     誠意を認めていただくことに骨を折りましょう。
+    </s>
+    <s xml:id="YG3000011600">
+     これからは毎日精勤することにして」
+     <lb>
+     </lb>
+     と言って中将は帰って行くのであった。
+    </s>
+    <s xml:id="YG3000011700">
+     月が明るく中天に上っていて、
+     <seg type="ruby">
+      <seg type="rb">
+       艶
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       えん
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     な深夜に上品な
+     <seg type="ruby">
+      <seg type="rb">
+       風采
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ふうさい
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の若い殿上人の歩いて行くことははなやかな見ものであった。
+    </s>
+    <s xml:id="YG3000011800">
+     源中将ほどには美しくないが、これはこれでまたよく思われるのは、どうしてこうまでだれもすぐれた人ぞろいなのであろうと、若い女房たちは例のように、より誇張した言葉でほめたてていた。
+    </s>
+    <s xml:id="YG3000011900">
+     <lb>
+     </lb>
+     大将はこの中将のいる
+     <seg type="ruby">
+      <seg type="rb">
+       右近衛
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       うこんえ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     のほうの長官であったから、始終この人を呼んで
+     <seg type="ruby">
+      <seg type="rb">
+       玉鬘
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       たまかずら
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     との縁組みについて熟談していた。
+    </s>
+    <s xml:id="YG3000012000">
+     内大臣へも希望を取り次いでもらっていたのである。
+    </s>
+    <s xml:id="YG3000012100">
+     人物もりっぱであったし、将来の大臣として活躍する素地のある人であったから、娘のために悪い配偶者ではないと大臣は認めていたが、源氏が
+     <seg type="ruby">
+      <seg type="rb">
+       尚侍
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ないしのかみ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     をばどうしようとするかには抗議の持ち出しようもなく、またそうすることには深い理由もあることであろうと思っていたから、すべて源氏に一任していると返辞をさせていた。
+    </s>
+    <s xml:id="YG3000012200">
+     この大将は東宮の母君である
+     <seg type="ruby">
+      <seg type="rb">
+       女御
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       にょご
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     とは兄弟であった。
+    </s>
+    <s xml:id="YG3000012300">
+     源氏と内大臣に続いての大きい勢力があった。
+    </s>
+    <s xml:id="YG3000012400">
+     年は三十二である。
+    </s>
+    <s xml:id="YG3000012500">
+     夫人は紫の
+     <seg type="ruby">
+      <seg type="rb">
+       女王
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       にょおう
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の姉君であった。
+    </s>
+    <s xml:id="YG3000012600">
+     <seg type="ruby">
+      <seg type="rb">
+       式部卿
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       しきぶきょう
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の宮の長女である。
+    </s>
+    <s xml:id="YG3000012700">
+     年が三つか四つ上であることはたいして並みはずれな夫婦ではないが、どうした理由でかその夫人をお
+     <seg type="ruby">
+      <seg type="rb">
+       婆様
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ばあさま
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     と呼んで、大将は愛していなかった。
+    </s>
+    <s xml:id="YG3000012800">
+     どうかして別れたい、別に結婚がしたいと願っていた。
+    </s>
+    <s xml:id="YG3000012900">
+     そうした夫人の関係があるために、源氏は大将と玉鬘との縁談には賛成ができないでいたのである。
+    </s>
+    <s xml:id="YG3000013000">
+     大将の家庭のためにもそう思ったことであり、玉鬘のためにも煩雑な関係を避けさせたかったのである。
+    </s>
+    <s xml:id="YG3000013100">
+     大将は好色な人ではないが、夢中になって玉鬘を得ようとしていた。
+    </s>
+    <s xml:id="YG3000013200">
+     内大臣も断然不賛成だというのでもないという情報を大将は得ていた。
+    </s>
+    <s xml:id="YG3000013300">
+     玉鬘自身は宮仕えに気が進んでいないということもまた身辺にいる者からくわしく伝えられて大将は聞いていた。
+    </s>
+    <s xml:id="YG3000013400">
+     <lb>
+     </lb>
+     「ではただ源氏の大臣だけが家庭の人になるのに反対していられるのだというわけではないか。
+    </s>
+    <s xml:id="YG3000013500">
+     実父がいいと思われる事どおりになすったらいいじゃないか」
+     <lb>
+     </lb>
+     と大将は仲介者の女房の弁を責めていた。
+    </s>
+    <s xml:id="YG3000013600">
+     <lb>
+     </lb>
+     九月になった。
+    </s>
+    <s xml:id="YG3000013700">
+     初霜が庭をほの白くした
+     <seg type="ruby">
+      <seg type="rb">
+       艶
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       えん
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     な朝に、また例のように女房たちが諸方から依頼された手紙を、恥じるようにしながら
+     <seg type="ruby">
+      <seg type="rb">
+       玉鬘
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       たまかずら
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の居間へ持って来たのを、自分で読むことはせずに、女房があけて読むのをだけ姫君は聞いていた。
+    </s>
+    <s xml:id="YG3000013800">
+     右大将のは、
+     <lb>
+     </lb>
+    </s>
+    <seg rend="jisage_1" rendition="div" style="margin-left: 1em">
+     <s xml:id="YG3000013900">
+      恋する人の頼みにします八月もどうやら過ぎてしまいそうな空をながめて私は
+      <seg type="ruby">
+       <seg type="rb">
+        煩悶
+       </seg>
+       <seg type="rp">
+        （
+       </seg>
+       <seg type="rt">
+        はんもん
+       </seg>
+       <seg type="rp">
+        ）
+       </seg>
+      </seg>
+      しております。
+     </s>
+    </seg>
+    <seg rend="jisage_2" rendition="div" style="margin-left: 2em">
+     <s xml:id="YG3000014000">
+      数ならばいとひもせまし長月に命をかくるほどぞはかなき
+      <lb>
+      </lb>
+     </s>
+    </seg>
+    <s xml:id="YG3000014100">
+     <lb>
+     </lb>
+     十月に玉鬘が御所へ出ることを知っている書き方である。
+    </s>
+    <s xml:id="YG3000014200">
+     <seg type="ruby">
+      <seg type="rb">
+       兵部卿
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       ひょうぶきょう
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の宮は、
+     <lb>
+     </lb>
+    </s>
+    <seg rend="jisage_1" rendition="div" style="margin-left: 1em">
+     <s xml:id="YG3000014300">
+      不幸な運命を持つ、無力な私は今さら何を申し上げることもないのですが、
+      <lb>
+      </lb>
+      <lb>
+      </lb>
+     </s>
+    </seg>
+    <seg rend="jisage_2" rendition="div" style="margin-left: 2em">
+     <s xml:id="YG3000014400">
+      朝日さす光を見ても
+      <seg type="ruby">
+       <seg type="rb">
+        玉笹
+       </seg>
+       <seg type="rp">
+        （
+       </seg>
+       <seg type="rt">
+        たまざさ
+       </seg>
+       <seg type="rp">
+        ）
+       </seg>
+      </seg>
+      の
+      <seg type="ruby">
+       <seg type="rb">
+        葉分
+       </seg>
+       <seg type="rp">
+        （
+       </seg>
+       <seg type="rt">
+        はわけ
+       </seg>
+       <seg type="rp">
+        ）
+       </seg>
+      </seg>
+      の霜は
+      <seg type="ruby">
+       <seg type="rb">
+        消
+       </seg>
+       <seg type="rp">
+        （
+       </seg>
+       <seg type="rt">
+        け
+       </seg>
+       <seg type="rp">
+        ）
+       </seg>
+      </seg>
+      たずもあらなん
+      <lb>
+      </lb>
+      <lb>
+      </lb>
+     </s>
+    </seg>
+    <seg rend="jisage_1" rendition="div" style="margin-left: 1em">
+     <s xml:id="YG3000014500">
+      私の恋する心を認めていてくださいましたら、せめてそれだけを慰めにしたいと思っています。
+     </s>
+    </seg>
+    <s xml:id="YG3000014600">
+     というのである。
+    </s>
+    <s xml:id="YG3000014700">
+     手紙の付けられてあったのは縮かんだようになった下折れ笹に霜の積もったのであって、来た使いの形もこの笹にふさわしい姿であった。
+    </s>
+    <s xml:id="YG3000014800">
+     <seg type="ruby">
+      <seg type="rb">
+       式部卿
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       しきぶきょう
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の宮の
+     <seg type="ruby">
+      <seg type="rb">
+       左兵衛督
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       さひょうえのかみ
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     は南の夫人の弟である。
+    </s>
+    <s xml:id="YG3000014900">
+     六条院へは始終来ている人であったから、玉鬘の宮中入りのこともよく知っていて、相当に煩悶をしているのが文意に現われていた。
+    </s>
+    <lb>
+    </lb>
+    <lb>
+    </lb>
+    <seg rend="jisage_2" rendition="div" style="margin-left: 2em">
+     <s xml:id="YG3000015000">
+      忘れなんと思ふも物の悲しきをいかさまにしていかさまにせん
+      <lb>
+      </lb>
+     </s>
+    </seg>
+    <s xml:id="YG3000015100">
+     <lb>
+     </lb>
+     選んだ紙の色、書きよう、
+     <seg type="ruby">
+      <seg type="rb">
+       焚
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       た
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     きしめた
+     <seg type="ruby">
+      <seg type="rb">
+       薫香
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       くんこう
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     の
+     <seg type="ruby">
+      <seg type="rb">
+       匂
+      </seg>
+      <seg type="rp">
+       （
+      </seg>
+      <seg type="rt">
+       にお
+      </seg>
+      <seg type="rp">
+       ）
+      </seg>
+     </seg>
+     いもそれぞれ特色があって、美しい感じ、はっきりとした感じ、奥ゆかしい感じをそれらの手紙から受け取ることができた。
+    </s>
+    <s xml:id="YG3000015200">
+     玉鬘が御所へ出るようになればこうしたことがなくなることを言って、女房たちは惜しがっていた。
+    </s>
+    <s xml:id="YG3000015300">
+     宮への御返事だけを、どういう気持ちになっていたのか、短くはあったが玉鬘は書いた。
+    </s>
+    <lb>
+    </lb>
+    <lb>
+    </lb>
+    <seg rend="jisage_2" rendition="div" style="margin-left: 2em">
+     <s xml:id="YG3000015400">
+      心もて日かげに向かふ
+      <seg type="ruby">
+       <seg type="rb">
+        葵
+       </seg>
+       <seg type="rp">
+        （
+       </seg>
+       <seg type="rt">
+        あふひ
+       </seg>
+       <seg type="rp">
+        ）
+       </seg>
+      </seg>
+      だに朝置く露をおのれやは
+      <seg type="ruby">
+       <seg type="rb">
+        消
+       </seg>
+       <seg type="rp">
+        （
+       </seg>
+       <seg type="rt">
+        け
+       </seg>
+       <seg type="rp">
+        ）
+       </seg>
+      </seg>
+      つ
+      <lb>
+      </lb>
+     </s>
+    </seg>
+    <s xml:id="YG3000015500">
+     <lb>
+     </lb>
+     ほのかな字で書かれたこの歌に、同情を持つ心の言ってあるのを御覧になって、一つの歌ではあるが宮は非常にうれしくお思いになった。
+    </s>
+    <s xml:id="YG3000015600">
+     こんなふうに恨めしがる手紙はまだほかからも多く来た。
+    </s>
+    <s xml:id="YG3000015700">
+     求婚者を多数に持つ女の中の模範的の女だと源氏と内大臣は玉鬘を言っていたそうである。
+    </s>
+   </p>
+  </body>
+ </text>
+</TEI>
