@@ -1,0 +1,708 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/manifest",
+    "@type": "sc:Manifest",
+    "attribution": "国文学研究資料館",
+    "label": "夢浮橋",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/deed.ja",
+    "metadata": [
+        {
+            "label": "Author",
+            "value": "北村/季吟"
+        },
+        {
+            "label": "Title",
+            "value": "源氏湖月抄"
+        },
+        {
+            "label": "Date",
+            "value": "林/和泉,村上/勘兵衛,吉田/四郎右門,村上/勘左衛門 "
+        },
+        {
+            "label": "DOI",
+            "value": "10.20730/200018258"
+        }
+    ],
+    "sequences": [
+        {
+            "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2310",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/annotation/2310",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2310",
+                            "resource": {
+                                "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02311.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "dc:identifier": "096-0020",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02311.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "2310",
+                    "width": 5616
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2311",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/annotation/2311",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2311",
+                            "resource": {
+                                "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02312.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "dc:identifier": "096-0020",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02312.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "2311",
+                    "width": 5616
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2312",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/annotation/2312",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2312",
+                            "resource": {
+                                "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02313.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "dc:identifier": "096-0020",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02313.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "2312",
+                    "width": 5616
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2313",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/annotation/2313",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2313",
+                            "resource": {
+                                "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02314.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "dc:identifier": "096-0020",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02314.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "2313",
+                    "width": 5616
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2314",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/annotation/2314",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2314",
+                            "resource": {
+                                "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02315.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "dc:identifier": "096-0020",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02315.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "2314",
+                    "width": 5616
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2315",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/annotation/2315",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2315",
+                            "resource": {
+                                "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02316.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "dc:identifier": "096-0020",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02316.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "2315",
+                    "width": 5616
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2316",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/annotation/2316",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2316",
+                            "resource": {
+                                "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02317.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "dc:identifier": "096-0020",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02317.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "2316",
+                    "width": 5616
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2317",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/annotation/2317",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2317",
+                            "resource": {
+                                "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02318.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "dc:identifier": "096-0020",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02318.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "2317",
+                    "width": 5616
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2318",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/annotation/2318",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2318",
+                            "resource": {
+                                "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02319.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "dc:identifier": "096-0020",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02319.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "2318",
+                    "width": 5616
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2319",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/annotation/2319",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2319",
+                            "resource": {
+                                "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02320.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "dc:identifier": "096-0020",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02320.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "2319",
+                    "width": 5616
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2320",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/annotation/2320",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2320",
+                            "resource": {
+                                "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02321.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "dc:identifier": "096-0020",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02321.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "2320",
+                    "width": 5616
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2321",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/annotation/2321",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2321",
+                            "resource": {
+                                "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02322.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "dc:identifier": "096-0020",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02322.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "2321",
+                    "width": 5616
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2322",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/annotation/2322",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2322",
+                            "resource": {
+                                "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02323.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "dc:identifier": "096-0020",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02323.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "2322",
+                    "width": 5616
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2323",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/annotation/2323",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2323",
+                            "resource": {
+                                "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02324.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "dc:identifier": "096-0020",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02324.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "2323",
+                    "width": 5616
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2324",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/annotation/2324",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2324",
+                            "resource": {
+                                "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02325.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "dc:identifier": "096-0020",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02325.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "2324",
+                    "width": 5616
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2325",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/annotation/2325",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2325",
+                            "resource": {
+                                "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02326.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "dc:identifier": "096-0020",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02326.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "2325",
+                    "width": 5616
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2326",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/annotation/2326",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2326",
+                            "resource": {
+                                "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02327.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "dc:identifier": "096-0020",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02327.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "2326",
+                    "width": 5616
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2327",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/annotation/2327",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2327",
+                            "resource": {
+                                "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02328.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "dc:identifier": "096-0020",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02328.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "2327",
+                    "width": 5616
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2328",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/annotation/2328",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2328",
+                            "resource": {
+                                "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02329.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "dc:identifier": "096-0020",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02329.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "2328",
+                    "width": 5616
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2329",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/annotation/2329",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2329",
+                            "resource": {
+                                "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02330.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "dc:identifier": "096-0020",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02330.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "2329",
+                    "width": 5616
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2330",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/annotation/2330",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2330",
+                            "resource": {
+                                "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02331.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "dc:identifier": "096-0020",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02331.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "2330",
+                    "width": 5616
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2331",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/annotation/2331",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2331",
+                            "resource": {
+                                "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02332.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "dc:identifier": "096-0020",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02332.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "2331",
+                    "width": 5616
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2332",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/annotation/2332",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2332",
+                            "resource": {
+                                "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02333.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "dc:identifier": "096-0020",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02333.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "2332",
+                    "width": 5616
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2333",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/annotation/2333",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/2333",
+                            "resource": {
+                                "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02334.tif/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "dc:identifier": "096-0020",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://kotenseki.nijl.ac.jp/api/iiif/200018258/v4/NIKI/096-0020/096-0020-02334.tif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                },
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "2333",
+                    "width": 5616
+                }
+            ]
+        }
+    ],
+    "viewingDirection": "right-to-left",
+    "viewingHint": "paged"
+}

@@ -1,0 +1,71 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/27.json/curation.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/27.json/range1",
+            "@type": "sc:Range",
+            "label": "Characters",
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/87c2b03d-2b97-0292-7efa-edfb9b566829/canvas/p3#xywh=3299,1293,50,2566",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "源氏物語大成 p.855",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 855
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/87c2b03d-2b97-0292-7efa-edfb9b566829/canvas/p4#xywh=2406,1303,53,2540",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "源氏物語大成 p.856",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 856
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/87c2b03d-2b97-0292-7efa-edfb9b566829/canvas/p5#xywh=1751,1582,73,2239",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "源氏物語大成 p.857",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 857
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/87c2b03d-2b97-0292-7efa-edfb9b566829/canvas/p7#xywh=5568,1324,33,2449",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "源氏物語大成 p.858",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 858
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/27.json",
+                "@type": "sc:Manifest",
+                "label": "東大本"
+            }
+        }
+    ]
+}

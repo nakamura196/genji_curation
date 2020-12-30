@@ -1,0 +1,22 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl03/25.json/curation.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "@id": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl03/25.json/range1",
+            "@type": "sc:Range",
+            "label": "Characters",
+            "members": [],
+            "within": {
+                "@id": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/ndl03/25.json",
+                "@type": "sc:Manifest",
+                "label": "[源氏物語]. [25]"
+            }
+        }
+    ]
+}

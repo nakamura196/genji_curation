@@ -1,0 +1,71 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/nijl/11.json/curation.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "@id": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/nijl/11.json/curation.json/range1",
+            "@type": "sc:Range",
+            "label": "Characters",
+            "members": [
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/432#xywh=2589,1523,27,1699",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "源氏物語大成 p.387",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 387
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/433#xywh=2423,1473,102,1755",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "源氏物語大成 p.388",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 388
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/434#xywh=1272,1499,29,1743",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "源氏物語大成 p.389",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 389
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/200018258/canvas/435#xywh=944,1499,29,1739",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "源氏物語大成 p.390",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 390
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/nijl/11.json",
+                "@type": "sc:Manifest",
+                "label": "湖月抄・NIJL・鵜飼文庫本"
+            }
+        }
+    ]
+}

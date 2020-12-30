@@ -1,0 +1,71 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://genji.dl.itc.u-tokyo.ac.jp/data/vol/11/image_map.json",
+    "@type": "cr:Curation",
+    "label": "Curating list",
+    "selections": [
+        {
+            "@id": "http://mp.ex.nii.ac.jp/api/curation/json/b3135c46-fa84-4805-bc1f-59d8fbe20274/range1",
+            "@type": "sc:Range",
+            "label": "Manual curation by IIIF Curation Viewer",
+            "members": [
+                {
+                    "@id": "https://catalog.lib.kyushu-u.ac.jp/image/411275/canvas/p2#xywh=610,210,50,758",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "2",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": "387"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://catalog.lib.kyushu-u.ac.jp/image/411275/canvas/p3#xywh=89,214,66,774",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "3",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": "388"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://catalog.lib.kyushu-u.ac.jp/image/411275/canvas/p5#xywh=157,222,60,772",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "5",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": "389"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://catalog.lib.kyushu-u.ac.jp/image/411275/canvas/p7#xywh=217,208,60,772",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "7",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": "390"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://us-central1-genji-5ca47.cloudfunctions.net/api/2d770a20-7d3b-11ea-a73e-bff69a6b5cdd/manifest",
+                "@type": "sc:Manifest",
+                "label": "九大本（無跋無刊記版）"
+            }
+        }
+    ]
+}

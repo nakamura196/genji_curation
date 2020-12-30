@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+</head>
+
+<body>
+  <div id="app">
+    <v-app>
+      <v-app-bar color="primary" dark>
+        <v-toolbar-title>東大本源氏物語・くずし字OCR結果共有ページ</v-toolbar-title>
+        <v-spacer></v-spacer>
+
+        <v-btn text href="list.html">
+          源氏物語大成
+        </v-btn>
+      </v-app-bar>
+
+      <v-content>
+        <v-container>
+
+          <h2 class="mt-10">新編日本古典文学全集・番号付与</h2>
+
+          <v-sheet class="pa-5 my-5" color="grey lighten-3">
+            CODH提供 <a href="http://codh.rois.ac.jp/kuronet/">KuroNetくずし字認識サービス</a> を利用しています。
+          </v-sheet>
+
+          <!-- 
+          <v-alert outlined type="warning" prominent border="left">
+            作業途中のため、データが完全でない点にご注意ください。
+          </v-alert>
+          -->
+
+          </v-sheet>
+
+          <v-data-table :headers="headers" :items="data" class="elevation-1 my-10" :items-per-page="100">
+
+            <template v-slot:item.kuronet="{ item }">
+              <template v-if="item.kuronet">
+                <a :href="'http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?curation='+item.kuronet+'&mode=annotation'"
+                  target="_blank">IIIF Curation Viewerで見る</a>
+              </template>
+              <template v-else>
+                準備中
+              </template>
+            </template>
+
+            <template v-slot:item.taisei="{ item }">
+              <template v-if="item.taisei">
+                <a :href="'http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?curation='+item.taisei+'&mode=annotation'"
+                  target="_blank">IIIF Curation Viewerで見る</a>
+              </template>
+              <template v-else>
+                準備中
+              </template>
+
+            </template>
+
+            <template v-slot:item.c_comp="{ item }">
+              <template v-if="item.c_comp">
+                <a :href="'http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?curation='+item.c_comp+'&mode=annotation'"
+                  target="_blank">IIIF Curation Viewerで見る</a>
+              </template>
+              <template v-else>
+                -
+              </template>
+
+            </template>
+
+            <template v-slot:item.man="{ item }">
+              <template v-if="item.man">
+                <a :href="'http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?curation='+item.man+'&mode=annotation'"
+                  target="_blank">IIIF Curation Viewerで見る</a>
+              </template>
+              <template v-else>
+                -
+              </template>
+
+            </template>
+
+            <template v-slot:item.c_p="{ item }">
+              <template v-if="item.c_p">
+                {{item.c_p}}
+              </template>
+              <template v-else>
+                -
+              </template>
+
+            </template>
+
+            <template v-slot:item.new="{ item }">
+              準備中
+            </template>
+
+          </v-data-table>
+
+
+        </v-container>
+      </v-content>
+      <v-footer color="primary">
+        <span class="white--text text-center">デジタル源氏物語プロジェクト</span>
+      </v-footer>
+    </v-app>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      vuetify: new Vuetify(),
+      data() {
+        return {
+          headers: [
+            { text: 'Name', value: 'name' },
+            { text: 'Vol', value: 'vol' },
+            { text: 'KuroNetのOCR結果', value: 'kuronet' },
+            { text: '番号の自動付与結果', value: 'taisei' },
+            { text: '番号の手動付与結果', value: 'man' },
+            { text: '手動/自動の比較結果', value: 'c_comp' },
+            { text: '精度', value: 'c_p' },
+            { text: 'New ModelのOCR結果', value: 'new' },
+          ],
+          data: [],
+        }
+      },
+      created() {
+        taisei = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23,
+          //24, 
+          25,
+          //26, 27, 
+          28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54]
+        vols = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54]
+        checks = {
+          /*
+          1: "21/24",
+          2: "未検証",
+          3: "未検証",
+          4: "未検証",
+          5: "未検証"
+          */
+          1: {
+            "max": 24,
+            "miss": [],
+            "flg": true
+            //"miss" : [1, 2, 3]
+          },
+          2: {
+            "max": 45,
+            "miss": [],
+            "flg": true
+            //"miss" : [57, 58, 70, 79]
+          },
+          3: {
+            "max": 11,
+            "miss": [],
+            "flg": true
+          },
+          4: {
+            "max": 46,
+            "miss": [],
+            "flg": true
+            // "miss" : [143, 144, 145]
+            // "miss" : [104, 118, 143, 144, 145, 146]
+          },
+          5: {
+            "max": 45,
+            "miss": [],
+            "flg": true
+            // "miss" : [164],
+            //"miss" : [164, 166, 167, 188, 194]
+          },
+          6: {
+            "max": 45,
+            "miss": [],
+            "flg": false,
+            "flg2": true
+            // "miss" : [164],
+            //"miss" : [164, 166, 167, 188, 194]
+          }
+        }
+
+        for (let i = 0; i < 54; i++) {
+
+          let vol = i + 1
+
+          row = {
+            name: vol,
+            vol: vol
+          }
+
+          if (vols.includes(vol)) {
+            row.kuronet = "https://raw.githubusercontent.com/nakamura196/genji_curation/master/docs/iiif/kuronet/" + ("00" + vol).slice(-2) + ".json"
+
+            if (taisei.includes(vol)) {
+              row.taisei = row.kuronet.replace("/kuronet/", "/121_saga/")
+            }
+
+            if (checks[vol]) {
+              
+              check = checks[vol]
+
+              if (check.flg) {
+                max = check.max
+                cor = max - check.miss.length
+                d = 1
+                p = Math.round(cor / max * 100 * d) / d;
+                row.c_p = p + "%  (" + cor + "/" + max + ")"
+              }
+
+              row.man = row.kuronet.replace("/kuronet/", "/saga/")
+
+              if(!check.flg2){
+                row.c_comp = row.kuronet.replace("/kuronet/", "/131_check_s/")
+              }
+
+            }
+          }
+
+
+          this.data.push(row)
+        }
+
+        var self = this;
+        axios
+          .get('https://nakamura196.github.io/genji/ugm/utokyo/collection.json')
+          .then(function (res) {
+            manifests = res.data.manifests
+            for (let i = 0; i < manifests.length; i++) {
+              let manifest = manifests[i]
+              let vol = manifest.index
+              self.data[vol - 1].name = manifest.label.split("_")[0]
+            }
+          });
+      }
+    })
+  </script>
+</body>
+
+</html>

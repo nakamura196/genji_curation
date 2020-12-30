@@ -1,0 +1,71 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://genji.dl.itc.u-tokyo.ac.jp/data/vol/11/image_map.json",
+    "@type": "cr:Curation",
+    "label": "Curating list",
+    "selections": [
+        {
+            "@id": "http://mp.ex.nii.ac.jp/api/curation/json/15dd7255-3d67-450e-85ae-10b5f04c114b/range1",
+            "@type": "sc:Range",
+            "label": "Manual curation by IIIF Curation Viewer",
+            "members": [
+                {
+                    "@id": "https://catalog.lib.kyushu-u.ac.jp/image/411207/canvas/p1#xywh=452,61,52,672",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "1",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": "387"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://catalog.lib.kyushu-u.ac.jp/image/411207/canvas/p3#xywh=451,70,45,658",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "3",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": "388"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://catalog.lib.kyushu-u.ac.jp/image/411207/canvas/p4#xywh=101,75,50,661",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "4",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": "389"
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://catalog.lib.kyushu-u.ac.jp/image/411207/canvas/p6#xywh=103,68,54,665",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "6",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": "390"
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://us-central1-genji-5ca47.cloudfunctions.net/api/35882fa0-3ac4-11ea-977c-31b6a392750b/manifest",
+                "@type": "sc:Manifest",
+                "label": "九大本（古活字版）"
+            }
+        }
+    ]
+}

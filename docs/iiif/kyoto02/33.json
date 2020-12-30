@@ -1,0 +1,1024 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/metadata_manifest/RB00007030/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "藤裏葉",
+    "license": " ",
+    "metadata": [
+        {
+            "label": "タイトル / 著者",
+            "value": "<a href=\"https://rmda.kulib.kyoto-u.ac.jp/item/rb00007030\"><strong>源氏物語</strong></a>"
+        },
+        {
+            "label": "出版年",
+            "value": "1531"
+        },
+        {
+            "label": "コレクション",
+            "value": "中院文庫"
+        },
+        {
+            "label": "請求記号",
+            "value": "中院/V/20"
+        },
+        {
+            "label": "登録番号",
+            "value": "262651"
+        },
+        {
+            "label": "レコードID",
+            "value": "RB00007030"
+        },
+        {
+            "label": "Description",
+            "value": " "
+        },
+        {
+            "label": "権利関係",
+            "value": "  <a href=\"https://rmda.kulib.kyoto-u.ac.jp/license_icon/free-license\"><img src=\"https://rmda.kulib.kyoto-u.ac.jp/sites/default/files/styles/thumbnail/public/2018-04/license_free.jpg?itok=xZggUJkg\" width=\"100\" height=\"40\" alt=\"画像二次利用自由（所蔵表示）\" typeof=\"Image\" /></a>"
+        },
+        {
+            "label": "所蔵",
+            "value": "京都大学附属図書館 Main Library, Kyoto University"
+        },
+        {
+            "label": "二次利用方法",
+            "value": "<a href=\"https://rmda.kulib.kyoto-u.ac.jp/reuse\">https://rmda.kulib.kyoto-u.ac.jp/reuse</a>"
+        },
+        {
+            "label": "IIIF Manifest",
+            "value": "<a href=\"https://rmda.kulib.kyoto-u.ac.jp/iiif/metadata_manifest/RB00007030/manifest.json\">https://rmda.kulib.kyoto-u.ac.jp/iiif/metadata_manifest/RB00007030/manifest.json</a>"
+        }
+    ],
+    "sequences": [
+        {
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540112",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540112",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540112",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540112",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01264_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540113",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540113",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540113",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540113",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01265_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540114",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540114",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540114",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540114",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01266_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540115",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540115",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540115",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540115",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01267_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540116",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540116",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540116",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540116",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01268_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540117",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540117",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540117",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540117",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01269_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540118",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540118",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540118",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540118",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01270_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540119",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540119",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540119",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540119",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01271_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540120",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540120",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540120",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540120",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01272_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540121",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540121",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540121",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540121",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01273_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540122",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540122",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540122",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540122",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01274_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540123",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540123",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540123",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540123",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01275_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540124",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540124",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540124",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540124",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01276_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540125",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540125",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540125",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540125",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01277_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540126",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540126",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540126",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540126",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01278_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540127",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540127",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540127",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540127",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01279_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540128",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540128",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540128",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540128",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01280_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540129",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540129",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540129",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540129",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01281_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540130",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540130",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540130",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540130",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01282_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540131",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540131",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540131",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540131",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01283_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540132",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540132",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540132",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540132",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01284_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540133",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540133",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540133",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540133",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01285_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540134",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540134",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540134",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540134",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01286_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540135",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540135",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540135",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540135",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01287_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540136",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540136",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540136",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540136",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01288_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540137",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540137",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540137",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540137",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01289_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540138",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540138",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540138",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540138",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01290_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540139",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540139",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540139",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540139",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01291_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540140",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540140",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540140",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540140",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01292_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540141",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540141",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540141",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540141",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01293_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540142",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540142",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540142",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540142",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01294_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540143",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540143",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540143",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540143",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01295_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540144",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540144",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540144",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540144",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01296_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540145",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540145",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540145",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540145",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01297_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540146",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540146",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540146",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540146",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01298_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540147",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540147",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540147",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540147",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01299_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                },
+                {
+                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540148",
+                    "@type": "sc:Canvas",
+                    "height": 2048,
+                    "images": [
+                        {
+                            "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/ano540148",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/page540148",
+                            "resource": {
+                                "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/img540148",
+                                "@type": "dctypes:Image",
+                                "description": "[paragraph:field_description]",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://rmda.kulib.kyoto-u.ac.jp/iiif/RB00007030/31/RB00007030_01300_0.ptif",
+                                    "profile": "http://iiif.io/api/image/2/level1.json"
+                                }
+                            }
+                        }
+                    ],
+                    "label": " ",
+                    "width": 3072
+                }
+            ]
+        }
+    ],
+    "viewingDirection": "right-to-left",
+    "within": "https://rmda.kulib.kyoto-u.ac.jp/collection/nakanoin"
+}

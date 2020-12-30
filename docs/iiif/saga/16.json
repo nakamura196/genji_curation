@@ -1,0 +1,107 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/16.json/curation.json",
+    "@type": "cr:Curation",
+    "label": "Character List",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/16.json/range1",
+            "@type": "sc:Range",
+            "label": "Characters",
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0ae23744-1bf3-27f3-4efa-d0045cce48e6/canvas/p3#xywh=3271,1236,39,2585",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "新編日本古典文学全集 p.359",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 359
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0ae23744-1bf3-27f3-4efa-d0045cce48e6/canvas/p4#xywh=4846,1229,31,2553",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "新編日本古典文学全集 p.360",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 360
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0ae23744-1bf3-27f3-4efa-d0045cce48e6/canvas/p5#xywh=5288,1257,55,2474",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "新編日本古典文学全集 p.361",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 361
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0ae23744-1bf3-27f3-4efa-d0045cce48e6/canvas/p5#xywh=1250,1258,38,2525",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "新編日本古典文学全集 p.362",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 362
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0ae23744-1bf3-27f3-4efa-d0045cce48e6/canvas/p6#xywh=1674,1290,73,2525",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "新編日本古典文学全集 p.363",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 363
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0ae23744-1bf3-27f3-4efa-d0045cce48e6/canvas/p7#xywh=2763,1258,55,2528",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "新編日本古典文学全集 p.364",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 364
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/0ae23744-1bf3-27f3-4efa-d0045cce48e6/canvas/p8#xywh=3016,1217,63,2541",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "新編日本古典文学全集 p.365",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 365
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://nakamura196.github.io/genji/ugm/utokyo/manifest/16.json",
+                "@type": "sc:Manifest",
+                "label": "東大本"
+            }
+        }
+    ]
+}

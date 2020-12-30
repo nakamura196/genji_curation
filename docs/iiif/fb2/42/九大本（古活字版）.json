@@ -1,0 +1,179 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://genji.dl.itc.u-tokyo.ac.jp/data/vol/42/image_map.json",
+    "@type": "cr:Curation",
+    "label": "Curating list",
+    "selections": [
+        {
+            "@id": "http://mp.ex.nii.ac.jp/api/curation/json/42/range1",
+            "@type": "sc:Range",
+            "label": "Manual curation by IIIF Curation Viewer",
+            "members": [
+                {
+                    "@id": "https://catalog.lib.kyushu-u.ac.jp/image/411248/canvas/p1#xywh=449,78,49,672",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "1",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 1429
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://catalog.lib.kyushu-u.ac.jp/image/411248/canvas/p3#xywh=403,78,49,672",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "3",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 1430
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://catalog.lib.kyushu-u.ac.jp/image/411248/canvas/p5#xywh=404,79,45,670",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "5",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 1431
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://catalog.lib.kyushu-u.ac.jp/image/411248/canvas/p7#xywh=319,79,49,673",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "7",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 1432
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://catalog.lib.kyushu-u.ac.jp/image/411248/canvas/p9#xywh=242,79,49,667",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "9",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 1433
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://catalog.lib.kyushu-u.ac.jp/image/411248/canvas/p11#xywh=196,79,49,671",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "11",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 1434
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://catalog.lib.kyushu-u.ac.jp/image/411248/canvas/p13#xywh=194,79,49,667",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "13",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 1435
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://catalog.lib.kyushu-u.ac.jp/image/411248/canvas/p15#xywh=102,79,49,669",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "15",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 1436
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://catalog.lib.kyushu-u.ac.jp/image/411248/canvas/p17#xywh=60,79,49,668",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "17",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 1437
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://catalog.lib.kyushu-u.ac.jp/image/411248/canvas/p19#xywh=25,79,49,672",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "19",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 1438
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://catalog.lib.kyushu-u.ac.jp/image/411248/canvas/p22#xywh=452,79,49,674",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "22",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 1439
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://catalog.lib.kyushu-u.ac.jp/image/411248/canvas/p24#xywh=412,79,48,672",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "24",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 1440
+                        }
+                    ]
+                },
+                {
+                    "@id": "https://catalog.lib.kyushu-u.ac.jp/image/411248/canvas/p26#xywh=369,79,45,674",
+                    "@type": "sc:Canvas",
+                    "description": "",
+                    "label": "26",
+                    "metadata": [
+                        {
+                            "label": "p",
+                            "value": 1441
+                        }
+                    ]
+                }
+            ],
+            "within": {
+                "@id": "https://us-central1-genji-5ca47.cloudfunctions.net/api/037ef95b-3492-4224-b859-0c59d2234054/manifest",
+                "@type": "sc:Manifest",
+                "label": "九大本（古活字版）"
+            }
+        }
+    ]
+}
