@@ -162,18 +162,19 @@ def post(url, areas, count_max, token, exist_images, type):
 
         print(i+1, len(params), "count_all", count_all)
 
-        time_sta = time.time()
+        # time_sta = time.time()
 
         try:
             requests.post('https://mp.ex.nii.ac.jp/api/kuronet/post',
-                          param, timeout=2)
+                          param, timeout=0.5)
             
         except requests.exceptions.ReadTimeout:
             print("err")
             # pass
         except Exception as e:
             print(e)
-
+        
+        '''
         time_end = time.time()
         tim = time_end- time_sta
 
@@ -186,3 +187,4 @@ def post(url, areas, count_max, token, exist_images, type):
             message = "post end "+str(j)
             line(message)
             break
+        '''

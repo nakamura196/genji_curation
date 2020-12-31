@@ -113,7 +113,7 @@ def main(userDataDir, profileDirectory, localPath, waitTime=10, preTime=10):
                 # driver.get("http://localhost")
 
                 if wait > 3:
-                    time.sleep(10) # ここを変える
+                    time.sleep(wait) # ここを変える
             except Exception as e:
                 print(e)
             

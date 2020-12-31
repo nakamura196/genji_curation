@@ -29,11 +29,15 @@ def login(driver, waitTime=10):
 
         time.sleep(waitTime)
 
+        print("wait finish", waitTime)
+
         try:
             driver.execute_script("window.stop();")
         except Exception as e:
             print(e)
-            
+
+        print("window stop finished")
+
     except Exception as e:
             print(e)
 

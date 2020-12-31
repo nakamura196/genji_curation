@@ -98,7 +98,7 @@ def main(dirname0, dirname, manifests, soup):
 
             new_canvas_map[canvas["@id"]] = manifest
 
-
+    # print(new_canvas_map)
 
     flg_right_to_left = True
 
@@ -154,7 +154,7 @@ def main(dirname0, dirname, manifests, soup):
 
         target = targets[i]
 
-        if i % 200 == 0:
+        if i % 1000 == 0:
             print("target", i+1, len(targets))
 
         curation = target["curation"]
@@ -227,6 +227,10 @@ def main(dirname0, dirname, manifests, soup):
             if canvas_id not in map[manifest]:
                 map[manifest][canvas_id] = {}
             '''
+
+            if canvas_id not in new_canvas_map:
+                print("対象外キャンバス", canvas_id)
+                continue
 
             manifest = new_canvas_map[canvas_id]
 

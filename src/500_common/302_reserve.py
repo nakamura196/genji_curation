@@ -7,4 +7,4 @@ b = "Profile 1"
 
 path = "../504_kyoto01/data/result.html"
 
-lib_reserve.main(a, b, path, waitTime=10, preTime=20)
+lib_reserve.main(a, b, None, waitTime=10, preTime=20)
