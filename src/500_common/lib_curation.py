@@ -174,7 +174,7 @@ def main(dirname0, dirname, manifests, soup):
 
             # continue
 
-            print("downloading", uri)
+            print("downloading", uri, i+1, len(targets))
 
             df = requests.get(uri).json()
 
@@ -183,6 +183,7 @@ def main(dirname0, dirname, manifests, soup):
                 sort_keys=True, separators=(',', ': '))
             f2.close()
 
+        # print(path)
         with open(path) as f:
             df = json.load(f)
 

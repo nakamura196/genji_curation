@@ -37,7 +37,7 @@ def login(driver, waitTime=10, preTime=10):
     except Exception as e:
         print(e)
 
-def main(userDataDir, profileDirectory, localPath, waitTime=10, preTime=10, check=False):
+def main(userDataDir, profileDirectory, localPath, manifests, waitTime=10, preTime=10, check=False):
 
     options = webdriver.ChromeOptions()
     options.add_argument('--user-data-dir='+userDataDir)
@@ -46,67 +46,99 @@ def main(userDataDir, profileDirectory, localPath, waitTime=10, preTime=10, chec
     driver = webdriver.Chrome(options=options) #, executable_path=driver_path
     driver.set_page_load_timeout(TIME_OUT)
 
-    urls = []
-    map = {}
+    flg = True
 
-    login(driver, waitTime, preTime)
+    prev_size = -1
 
-    # ローカルファイルからの読み込み
-    if localPath != None:
-        soup = BeautifulSoup(open(localPath), "lxml")
-    else:
-        html = driver.page_source.encode('utf-8')
-        soup = BeautifulSoup(html, "lxml")
+    while flg:
 
-    if soup.find("tbody"):
-        trs = soup.find("tbody").find_all("tr")
+        urls = []
+        map = {}
+        target_size = 0
 
-        for i in range(len(trs)):
-            index = i
-            tr = trs[index]
+        login(driver, waitTime, preTime)
 
-            tds = tr.find_all("td")
-            if len(tds) < 4:
-                print("err", tds)
-                continue
+        # ローカルファイルからの読み込み
+        if localPath != None:
+            soup = BeautifulSoup(open(localPath), "lxml")
+        else:
+            html = driver.page_source.encode('utf-8')
+            soup = BeautifulSoup(html, "lxml")
 
-            td3 = tds[3]
-            id = tds[0].text
+        if soup.find("tbody"):
+            trs = soup.find("tbody").find_all("tr")
 
-            cr = tds[1].find("a").get("href")
-            time_str = tds[1].find_all("div")[1].text
+            for i in range(len(trs)):
+                index = i
+                tr = trs[index]
 
-            if len(td3.find_all("div")) == 1:
-                if td3.find("a") == None:
-                    print("err", td3)
-                sequence = "https://mp.ex.nii.ac.jp" + td3.find("a").get("href")
-                urls.append(sequence)
-                map[sequence] = id + " - " + time_str + " - " + cr
+                tds = tr.find_all("td")
+                if len(tds) < 4:
+                    print("err", tds)
+                    continue
 
-        print("len(trs)", len(trs))
+                td = tds[1]
+                if td.find("a") == None:
+                    print("err", td)
+                    continue
 
-        for i in range(len(urls)):
-            url = urls[i]
+                icv = td.find("a").get("href")
+                
+                manifest = icv.split("manifest=")[1].split("&")[0]
 
-            print("index", i+1, "残りの行数", len(urls), "全行数", len(trs))
+                if manifests != None and manifest not in manifests:
+                    continue
+                else:
+                    target_size += 1
 
-            if check:
-                print(map[url])
+                td3 = tds[3]
+                id = tds[0].text
 
-            try:
-                driver.get(url)
-                html = driver.page_source.encode('utf-8')
+                cr = tds[1].find("a").get("href")
+                time_str = tds[1].find_all("div")[1].text
 
-                soup = BeautifulSoup(html, features="lxml")
+                if len(td3.find_all("div")) == 1:
+                    if td3.find("a") == None:
+                        print("err", td3)
+                        continue
+                    sequence = "https://mp.ex.nii.ac.jp" + td3.find("a").get("href")
+                    urls.append(sequence)
+                    map[sequence] = id + " - " + time_str + " - " + cr
 
-                if "キュレーションが不正" in str(soup) or "Internal Server Error" in str(soup):
-                    print("err", map[url])
-                    # time.sleep(5)
-            except Exception as e:
-                print(e)
+            print("len(trs)", len(trs))
+            print("target size", target_size)
 
-            if (i + 1) % LOGIN_COUNT == 0:
-                login(driver)
+            if prev_size == len(urls):
+                flg = False
+                urls = []
+            else:
+                prev_size = len(urls)
+
+            if len(urls) == 0:
+                flg = False
+
+            for i in range(len(urls)):
+                url = urls[i]
+
+                print("index", i+1, "残りの行数", len(urls), "全行数", len(trs))
+
+                if check:
+                    print(map[url])
+
+                try:
+                    driver.get(url)
+                    html = driver.page_source.encode('utf-8')
+
+                    soup = BeautifulSoup(html, features="lxml")
+
+                    if "キュレーションが不正" in str(soup) or "Internal Server Error" in str(soup):
+                        print("err", map[url])
+                        # time.sleep(5)
+                except Exception as e:
+                    print(e)
+
+                if (i + 1) % LOGIN_COUNT == 0:
+                    login(driver)
 
     #全てのウィンドウを閉じる
     driver.quit()

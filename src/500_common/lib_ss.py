@@ -41,6 +41,50 @@ def login(driver, waitTime=10):
     except Exception as e:
             print(e)
 
+def dwn(userDataDir, profileDirectory, waitTime=10):
+
+    options = webdriver.ChromeOptions()
+    options.add_argument('--user-data-dir='+userDataDir)
+    options.add_argument('--profile-directory='+profileDirectory)  # この行を省略するとDefaultフォルダが指定されます
+
+    driver = webdriver.Chrome(options=options) #options=options, executable_path=driver_path
+    # driver.set_page_load_timeout(TIME_OUT)
+
+    url = 'https://mp.ex.nii.ac.jp/kuronet/'
+
+    try:
+        driver.get(url)
+
+        time.sleep(10)
+
+        # ログイン
+        
+        driver.find_element_by_xpath('//*[@onclick="dashboard();"]').click()
+
+        print("logged in")
+
+        m = int(waitTime / 10)
+
+        for i in range(1, m + 1):
+            print("waiting...", i * 10, waitTime)
+            time.sleep(10)
+
+        print("wait finish", waitTime)
+
+        print("window stop finished")
+
+    except Exception as e:
+            print(e)
+
+    html = driver.page_source.encode('utf-8')
+    soup = BeautifulSoup(html, "lxml")
+
+    with open("data/test.html", mode='w') as f:
+        f.write(str(soup))
+
+    #全てのウィンドウを閉じる
+    driver.quit()
+
 def main(userDataDir, profileDirectory, waitTime=10):
 
     options = webdriver.ChromeOptions()

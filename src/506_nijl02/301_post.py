@@ -1,0 +1,19 @@
+import sys
+sys.path.append('../500_common')
+import lib
+import lib_ss
+
+if False:
+    images = lib.get_images("data/result.html")
+else:
+    soup = lib_ss.main("/Users/nakamurasatoru/git/d_genji/genji_curation/src/500_common/Chrome1post", "Profile 1", 60)
+    images = lib.get_images_by_soup(soup)
+
+manifest = "https://kotenseki.nijl.ac.jp/biblio/200003803/manifest"
+areas = ["2800,480,1900,2800", "820,480,1900,2800"]
+countMax = 20
+
+# token = lib.get_token("../token.yml")
+token = "eyJhbGciOiJSUzI1NiIsImtpZCI6IjA4MGU0NWJlNGIzMTE4MzA5M2RhNzUyYmIyZGU5Y2RjYTNlNmU4ZTciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoidS5uYWthbXVyYS5zYXRvcnUgdSIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vLXBZeVhMVEpMeFE0L0FBQUFBQUFBQUFJL0FBQUFBQUFBQUFBL0FDSGkzcmVWR21aMzNBQTRXSGloWGQ0aGZfSUcyNHpIX1EvcGhvdG8uanBnIiwiaXNzIjoiaHR0cHM6Ly9zZWN1cmV0b2tlbi5nb29nbGUuY29tL2NvZGgtODEwNDEiLCJhdWQiOiJjb2RoLTgxMDQxIiwiYXV0aF90aW1lIjoxNTk0MjQ4OTI2LCJ1c2VyX2lkIjoiUGwySXNUNWlVV1Z5SVZQUFFkNVNZbHZkdmV6MiIsInN1YiI6IlBsMklzVDVpVVdWeUlWUFBRZDVTWWx2ZHZlejIiLCJpYXQiOjE2MDk0NTI3MzIsImV4cCI6MTYwOTQ1NjMzMiwiZW1haWwiOiJ1Lm5ha2FtdXJhLnNhdG9ydUBnLmVjYy51LXRva3lvLmFjLmpwIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZ29vZ2xlLmNvbSI6WyIxMDExNzI0MzcwNTUzMjI0MjcwMDYiXSwiZW1haWwiOlsidS5uYWthbXVyYS5zYXRvcnVAZy5lY2MudS10b2t5by5hYy5qcCJdfSwic2lnbl9pbl9wcm92aWRlciI6Imdvb2dsZS5jb20ifX0.B1eOW6py2iWgCVAmVTRP2r2phnNigImXUjoyzHHSiIV2-hdQ7kQonliAy6fw-6GwvipBegxDRN572kdqoYY8LQ2wLPMAfqCinIhjvR2zxW5RGMHUyKakJrLV6QOjsNHqrqqhYDp16NLisXURm4NanHj2A7o8c5uTLh2vtIhiBcqC36fu2Cdi-9f9aZChUzxngjr5Yer1qno9QpwylDNK2cy-SHfkY8XkzJ269cLFGPhwddqNKHNp-3Lin2afkhYxAZ6kPJfZbv1YOg2zuH-CeOXVDYi8WYUZb58NCQm_ZS4jhpskO7VHefN9-5et22QVYPNUaVpuAHI8dhJfbQWImA"
+
+lib.post(manifest, areas, countMax, token, images, "Manifest")

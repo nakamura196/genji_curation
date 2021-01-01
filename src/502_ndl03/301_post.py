@@ -3,7 +3,7 @@ sys.path.append('../500_common')
 import lib
 import lib_ss
 
-if False:
+if True:
     images = lib.get_images("data/result.html")
 else:
     soup = lib_ss.main("/Users/nakamurasatoru/git/d_genji/genji_curation/src/500_common/Chrome31", "Profile 3", 10)

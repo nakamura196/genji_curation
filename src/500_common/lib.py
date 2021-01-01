@@ -92,7 +92,7 @@ def load_remote_json(uri, path):
     return df
 
 
-def post(url, areas, count_max, token, exist_images, type):
+def post(url, areas, count_max, token, exist_images, type, timeout=0.3):
 
     merged_canvases = []
 
@@ -166,7 +166,7 @@ def post(url, areas, count_max, token, exist_images, type):
 
         try:
             requests.post('https://mp.ex.nii.ac.jp/api/kuronet/post',
-                          param, timeout=0.5)
+                          param, timeout=timeout)
             
         except requests.exceptions.ReadTimeout:
             print("err")
