@@ -50,6 +50,8 @@ def main(userDataDir, profileDirectory, localPath, manifests, waitTime=10, preTi
 
     flg = True
 
+    prev_size = -1
+
     while flg:
 
         urls = []
@@ -108,6 +110,12 @@ def main(userDataDir, profileDirectory, localPath, manifests, waitTime=10, preTi
 
             print("len(trs)", len(trs))
             print("target size", target_size)
+
+            if prev_size == len(urls):
+                flg = False
+                urls = []
+            else:
+                prev_size = len(urls)
 
             if len(urls) == 0:
                 flg = False

@@ -31,26 +31,28 @@ def login(driver, waitTime=10):
     # GoogleログインURL
     url = 'https://mp.ex.nii.ac.jp/kuronet/'
 
-    driver.get(url)
-
-    time.sleep(10)
-
-    # ログイン
-    
-    driver.find_element_by_xpath('//*[@onclick="dashboard();"]').click()
-
-    print("logged in")
-
-    time.sleep(waitTime)
-
     try:
-        driver.execute_script("window.stop();")
+        driver.get(url)
+
+        time.sleep(10)
+
+        # ログイン
+        
+        driver.find_element_by_xpath('//*[@onclick="dashboard();"]').click()
+
+        print("logged in")
+
+        time.sleep(waitTime)
+
+        try:
+            driver.execute_script("window.stop();")
+        except Exception as e:
+            print(e)
+    
     except Exception as e:
         print(e)
 
-def main(userDataDir, profileDirectory, manifests):
-    # chromedriverのPATHを指定（Pythonファイルと同じフォルダの場合）
-    driver_path = '/usr/local/bin/chromedriver'
+def main(userDataDir, profileDirectory, manifests, path):
 
     options = webdriver.ChromeOptions()
     options.add_argument('--user-data-dir='+userDataDir)
@@ -59,58 +61,76 @@ def main(userDataDir, profileDirectory, manifests):
     driver = webdriver.Chrome(options=options)
     driver.set_page_load_timeout(TIME_OUT)
 
-    localFlag = False
     waitTime = 10
 
-    login(driver, waitTime)
+    flg = True
 
-    # ローカルファイルからの読み込み
-    if localFlag:
-        soup = BeautifulSoup(open("data/result.html"), "lxml")
-    else:
-        html = driver.page_source.encode('utf-8')
-        soup = BeautifulSoup(html, "lxml")
+    prev_size = -1
 
-    if soup.find("tbody"):
-        trs = soup.find("tbody").find_all("tr")
+    while flg:
 
-        # 予約の実行
+        login(driver, waitTime)
 
-        urls = []
+        # ローカルファイルからの読み込み
+        if path != None:
+            soup = BeautifulSoup(open(path), "lxml")
+        else:
+            html = driver.page_source.encode('utf-8')
+            soup = BeautifulSoup(html, "lxml")
 
-        exists = []
+        if soup.find("tbody"):
+            trs = soup.find("tbody").find_all("tr")
 
-        for tr in trs:
-            tds = tr.find_all("td")
+            # 予約の実行
 
-            td = tds[1]
-            if td.find("a") == None:
-                print("err", td)
-                continue
+            urls = []
 
-            icv = td.find("a").get("href")
-            
-            manifest = icv.split("manifest=")[1].split("&")[0]
+            exists = []
 
-            if manifest not in exists:
-                exists.append(manifest)
+            for tr in trs:
+                tds = tr.find_all("td")
 
-            if manifest in manifests:
-                td2 = tds[2]
-                reserve = "https://mp.ex.nii.ac.jp" + td2.find("a").get("href")
+                td = tds[1]
+                if td.find("a") == None:
+                    print("err", td)
+                    continue
+
+                icv = td.find("a").get("href")
                 
-                delete = reserve.replace("reserve", "delete")
-                urls.append(delete)
+                manifest = icv.split("manifest=")[1].split("&")[0]
 
-        print(len(urls))
+                if manifest not in exists:
+                    exists.append(manifest)
 
-        for i in range(len(urls)):
-            print(i, len(urls))
+                # if manifest in manifests:
+                if "ndl.go.jp" in manifest:
+                    td2 = tds[2]
+                    reserve = "https://mp.ex.nii.ac.jp" + td2.find("a").get("href")
+                    
+                    delete = reserve.replace("reserve", "delete")
+                    urls.append(delete)
 
-            url = urls[i]
+            print(len(urls))
 
-            # time.sleep(1)
-            driver.get(url)
+            if prev_size == len(urls):
+                flg = False
+                urls = []
+            else:
+                prev_size = len(urls)
+
+            if len(urls) == 0:
+                flg = False
+
+            for i in range(len(urls)):
+                print(i, len(urls))
+
+                url = urls[i]
+
+                # time.sleep(1)
+                try:
+                    driver.get(url)
+                except Exception as e:
+                    print(e)
 
     #全てのウィンドウを閉じる
     driver.quit()

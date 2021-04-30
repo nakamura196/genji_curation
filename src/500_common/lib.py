@@ -18,9 +18,28 @@ def get_images_by_soup(soup):
     prefixes = {}
     sizes = {}
 
+    manifests = {}
+
     for i in range(1, len(tr_list)):
 
         tds = tr_list[i].find_all("td")
+
+        if len(tds) < 2:
+            print("err", tds)
+            continue
+
+        td = tds[1]
+        if td.find("a") == None:
+            print("err", td)
+            continue
+
+        icv = td.find("a").get("href")
+        
+        manifest = icv.split("manifest=")[1].split("&")[0]
+
+        if manifest not in manifests:
+            manifests[manifest] = 0
+        manifests[manifest] += 1
 
         img = tds[1].find("img")
 
@@ -44,6 +63,7 @@ def get_images_by_soup(soup):
 
     print("sizes", sizes)
     print("prefixes", prefixes)
+    print("manifests", manifests)
 
     return images
 
@@ -92,7 +112,7 @@ def load_remote_json(uri, path):
     return df
 
 
-def post(url, areas, count_max, token, exist_images, type, timeout=0.3):
+def post(url, areas, count_max, token, exist_images, type, timeout=0.5):
 
     merged_canvases = []
 
@@ -156,6 +176,7 @@ def post(url, areas, count_max, token, exist_images, type, timeout=0.3):
                 })
 
     exist_count = 0
+    
     for i in range(len(params)):
 
         param = params[i]
@@ -168,8 +189,8 @@ def post(url, areas, count_max, token, exist_images, type, timeout=0.3):
             requests.post('https://mp.ex.nii.ac.jp/api/kuronet/post',
                           param, timeout=timeout)
             
-        except requests.exceptions.ReadTimeout:
-            print("err")
+        except requests.exceptions.ReadTimeout as e:
+            print(e)
             # pass
         except Exception as e:
             print(e)

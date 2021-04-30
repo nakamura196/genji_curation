@@ -3,10 +3,10 @@ sys.path.append('../500_common')
 import lib
 import lib_ss
 
-if False:
+if True:
     images = lib.get_images("data/result.html")
 else:
-    soup = lib_ss.main("/Users/nakamurasatoru/git/d_genji/genji_curation/src/500_common/Chrome1post", "Profile 1", 60)
+    soup = lib_ss.main("/Users/nakamurasatoru/git/d_genji/genji_curation/src/500_common/Chrome1seq", "Profile 1", 60)
     images = lib.get_images_by_soup(soup)
 
 manifest = "https://kotenseki.nijl.ac.jp/biblio/100153621/manifest"
