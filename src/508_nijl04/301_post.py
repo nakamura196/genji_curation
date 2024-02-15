@@ -9,7 +9,7 @@ else:
     soup = lib_ss.main("/Users/nakamurasatoru/git/d_genji/genji_curation/src/500_common/Chrome3post", "Profile 3", 60)
     images = lib.get_images_by_soup(soup)
 
-manifest = "https://kotenseki.nijl.ac.jp/biblio/100266039/manifest"
+manifest = "https://kokusho.nijl.ac.jp/biblio/100266039/manifest"
 areas = ["2840,390,2160,3010", "550,390,2160,3010"]
 
 # 2840,387,2160,3012/full/0/default.jpg

@@ -11,7 +11,7 @@ path = "data/result.html"
 
 ########
 
-manifests = ["https://kotenseki.nijl.ac.jp/biblio/100153621/manifest"]
+manifests = ["https://kokusho.nijl.ac.jp/biblio/100153621/manifest"]
 
 #########
 

@@ -31,7 +31,7 @@ for collection_url in collections:
         manifest = manifests_arr[i]["@id"]
     manifests.append(manifest)
 
-manifests.append("https://kotenseki.nijl.ac.jp/biblio/100153620/manifest")
+manifests.append("https://kokusho.nijl.ac.jp/biblio/100153620/manifest")
 
 #########
 

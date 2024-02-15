@@ -9,7 +9,7 @@ else:
     soup = lib_ss.main("/Users/nakamurasatoru/git/d_genji/genji_curation/src/500_common/Chrome1seq", "Profile 1", 60)
     images = lib.get_images_by_soup(soup)
 
-manifest = "https://kotenseki.nijl.ac.jp/biblio/100153621/manifest"
+manifest = "https://kokusho.nijl.ac.jp/biblio/100153621/manifest"
 areas = ["3020,530,2600,3550", "420,530,2600,3550"]
 countMax = 5
 
